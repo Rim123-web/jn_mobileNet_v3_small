@@ -1,0 +1,242 @@
+TRT-8001-EntropyCalibration2
+input: 3ca74db6
+/features/features.0/features.0.0/Conv_output_0: 3e82789f
+(Unnamed Layer* 2) [Shuffle]_output: 3cc18f1e
+/features/features.0/features.0.2/Add_output_0: 3e4e8bfa
+/features/features.0/features.0.2/Relu_output_0: 3e3336a8
+/features/features.0/features.0.2/Clip_output_0: 3d418f1e
+/features/features.0/features.0.2/Mul_output_0: 3f4b6fca
+(Unnamed Layer* 8) [Shuffle]_output: 3d418f1e
+/features/features.0/features.0.2/Div_output_0: 3e079fdc
+/features/features.1/block/block.0/block.0.0/Conv_output_0: 3d661a02
+/features/features.1/block/block.0/block.0.2/Relu_output_0: 3d68182b
+/features/features.1/block/block.1/avgpool/GlobalAveragePool_output_0: 3cbb9cbc
+/features/features.1/block/block.1/fc1/Conv_output_0: 39299f62
+/features/features.1/block/block.1/activation/Relu_output_0: 0
+/features/features.1/block/block.1/fc2/Conv_output_0: 3c2dda46
+/features/features.1/block/block.1/scale_activation/HardSigmoid_output_0: 3bbafd82
+/features/features.1/block/block.1/Mul_output_0: 3cdd0678
+/features/features.1/block/block.2/block.2.0/Conv_output_0: 3dd0e37c
+/features/features.2/block/block.0/block.0.0/Conv_output_0: 3da2fe37
+/features/features.2/block/block.0/block.0.2/Relu_output_0: 3d901ae1
+/features/features.2/block/block.1/block.1.0/Conv_output_0: 3dde87bf
+/features/features.2/block/block.1/block.1.2/Relu_output_0: 3d3695dc
+/features/features.2/block/block.2/block.2.0/Conv_output_0: 3df3b692
+/features/features.3/block/block.0/block.0.0/Conv_output_0: 3d9d38b0
+/features/features.3/block/block.0/block.0.2/Relu_output_0: 3d0cd1a6
+/features/features.3/block/block.1/block.1.0/Conv_output_0: 3d7b2057
+/features/features.3/block/block.1/block.1.2/Relu_output_0: 3caa884f
+/features/features.3/block/block.2/block.2.0/Conv_output_0: 3dc6787e
+/features/features.3/Add_output_0: 3db2348e
+/features/features.4/block/block.0/block.0.0/Conv_output_0: 3d9a0b5b
+(Unnamed Layer* 32) [Shuffle]_output: 3cc18f1e
+/features/features.4/block/block.0/block.0.2/Add_output_0: 3ddc5661
+/features/features.4/block/block.0/block.0.2/Relu_output_0: 3ddc5661
+/features/features.4/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.4/block/block.0/block.0.2/Mul_output_0: 3ec6aa21
+(Unnamed Layer* 38) [Shuffle]_output: 3d418f1e
+/features/features.4/block/block.0/block.0.2/Div_output_0: 3d84716c
+/features/features.4/block/block.1/block.1.0/Conv_output_0: 3dc923f3
+(Unnamed Layer* 42) [Shuffle]_output: 3cc18f1e
+/features/features.4/block/block.1/block.1.2/Add_output_0: 3de9294d
+/features/features.4/block/block.1/block.1.2/Relu_output_0: 3de9294d
+/features/features.4/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.4/block/block.1/block.1.2/Mul_output_0: 3ec37c54
+(Unnamed Layer* 48) [Shuffle]_output: 3d418f1e
+/features/features.4/block/block.1/block.1.2/Div_output_0: 3d8252e3
+/features/features.4/block/block.2/avgpool/GlobalAveragePool_output_0: 3d18e37f
+/features/features.4/block/block.2/fc1/Conv_output_0: 3e15b8dc
+/features/features.4/block/block.2/activation/Relu_output_0: 0
+/features/features.4/block/block.2/fc2/Conv_output_0: 3c744d7f
+/features/features.4/block/block.2/scale_activation/HardSigmoid_output_0: 3bb68e6d
+/features/features.4/block/block.2/Mul_output_0: 3d024d49
+/features/features.4/block/block.3/block.3.0/Conv_output_0: 3d1852df
+/features/features.5/block/block.0/block.0.0/Conv_output_0: 3d4c3ef0
+(Unnamed Layer* 59) [Shuffle]_output: 3cc18f1e
+/features/features.5/block/block.0/block.0.2/Add_output_0: 3d65b827
+/features/features.5/block/block.0/block.0.2/Relu_output_0: 3d65b827
+/features/features.5/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.5/block/block.0/block.0.2/Mul_output_0: 3e270341
+(Unnamed Layer* 65) [Shuffle]_output: 3d418f1e
+/features/features.5/block/block.0/block.0.2/Div_output_0: 3cdeaf01
+/features/features.5/block/block.1/block.1.0/Conv_output_0: 3dbb172c
+(Unnamed Layer* 69) [Shuffle]_output: 3cc18f1e
+/features/features.5/block/block.1/block.1.2/Add_output_0: 3dddd95d
+/features/features.5/block/block.1/block.1.2/Relu_output_0: 3dddd95d
+/features/features.5/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.5/block/block.1/block.1.2/Mul_output_0: 3e8454b4
+(Unnamed Layer* 75) [Shuffle]_output: 3d418f1e
+/features/features.5/block/block.1/block.1.2/Div_output_0: 3d3070f0
+/features/features.5/block/block.2/avgpool/GlobalAveragePool_output_0: 3c0ebcde
+/features/features.5/block/block.2/fc1/Conv_output_0: 3d92fa54
+/features/features.5/block/block.2/activation/Relu_output_0: 3cd87e0a
+/features/features.5/block/block.2/fc2/Conv_output_0: 3d3723d2
+/features/features.5/block/block.2/scale_activation/HardSigmoid_output_0: 3c030b78
+/features/features.5/block/block.2/Mul_output_0: 3c658dd6
+/features/features.5/block/block.3/block.3.0/Conv_output_0: 3d851a80
+/features/features.5/Add_output_0: 3d89cf44
+/features/features.6/block/block.0/block.0.0/Conv_output_0: 3d3e4b20
+(Unnamed Layer* 87) [Shuffle]_output: 3cc18f1e
+/features/features.6/block/block.0/block.0.2/Add_output_0: 3d5b12a6
+/features/features.6/block/block.0/block.0.2/Relu_output_0: 3d5b12a6
+/features/features.6/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.6/block/block.0/block.0.2/Mul_output_0: 3e1c698c
+(Unnamed Layer* 93) [Shuffle]_output: 3d418f1e
+/features/features.6/block/block.0/block.0.2/Div_output_0: 3cd08cbb
+/features/features.6/block/block.1/block.1.0/Conv_output_0: 3dab236c
+(Unnamed Layer* 97) [Shuffle]_output: 3cc18f1e
+/features/features.6/block/block.1/block.1.2/Add_output_0: 3dd27a91
+/features/features.6/block/block.1/block.1.2/Relu_output_0: 3dd27a91
+/features/features.6/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.6/block/block.1/block.1.2/Mul_output_0: 3e6e7145
+(Unnamed Layer* 103) [Shuffle]_output: 3d418f1e
+/features/features.6/block/block.1/block.1.2/Div_output_0: 3d1ef62e
+/features/features.6/block/block.2/avgpool/GlobalAveragePool_output_0: 3bdf91f2
+/features/features.6/block/block.2/fc1/Conv_output_0: 3cb5d94d
+/features/features.6/block/block.2/activation/Relu_output_0: 3cb07374
+/features/features.6/block/block.2/fc2/Conv_output_0: 3d238095
+/features/features.6/block/block.2/scale_activation/HardSigmoid_output_0: 3bf9ba12
+/features/features.6/block/block.2/Mul_output_0: 3c799017
+/features/features.6/block/block.3/block.3.0/Conv_output_0: 3d91f73b
+/features/features.6/Add_output_0: 3dc100dd
+/features/features.7/block/block.0/block.0.0/Conv_output_0: 3d750bb5
+(Unnamed Layer* 115) [Shuffle]_output: 3cc18f1e
+/features/features.7/block/block.0/block.0.2/Add_output_0: 3d9d7c57
+/features/features.7/block/block.0/block.0.2/Relu_output_0: 3d9d7c57
+/features/features.7/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.7/block/block.0/block.0.2/Mul_output_0: 3e90c8fb
+(Unnamed Layer* 121) [Shuffle]_output: 3d418f1e
+/features/features.7/block/block.0/block.0.2/Div_output_0: 3d410bf9
+/features/features.7/block/block.1/block.1.0/Conv_output_0: 3ddc88bc
+(Unnamed Layer* 125) [Shuffle]_output: 3cc18f1e
+/features/features.7/block/block.1/block.1.2/Add_output_0: 3dfc1632
+/features/features.7/block/block.1/block.1.2/Relu_output_0: 3dfc1632
+/features/features.7/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.7/block/block.1/block.1.2/Mul_output_0: 3e9255b0
+(Unnamed Layer* 131) [Shuffle]_output: 3d418f1e
+/features/features.7/block/block.1/block.1.2/Div_output_0: 3d431ceb
+/features/features.7/block/block.2/avgpool/GlobalAveragePool_output_0: 3c87d1f9
+/features/features.7/block/block.2/fc1/Conv_output_0: 3d4b71bd
+/features/features.7/block/block.2/activation/Relu_output_0: 3d57c927
+/features/features.7/block/block.2/fc2/Conv_output_0: 3d0c98b0
+/features/features.7/block/block.2/scale_activation/HardSigmoid_output_0: 3c010a14
+/features/features.7/block/block.2/Mul_output_0: 3d505675
+/features/features.7/block/block.3/block.3.0/Conv_output_0: 3d37bcfb
+/features/features.8/block/block.0/block.0.0/Conv_output_0: 3d374dee
+(Unnamed Layer* 142) [Shuffle]_output: 3cc18f1e
+/features/features.8/block/block.0/block.0.2/Add_output_0: 3d7fd67e
+/features/features.8/block/block.0/block.0.2/Relu_output_0: 3d7fd67e
+/features/features.8/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.8/block/block.0/block.0.2/Mul_output_0: 3e2695c3
+(Unnamed Layer* 148) [Shuffle]_output: 3d418f1e
+/features/features.8/block/block.0/block.0.2/Div_output_0: 3cde1d04
+/features/features.8/block/block.1/block.1.0/Conv_output_0: 3dac42f8
+(Unnamed Layer* 152) [Shuffle]_output: 3cc18f1e
+/features/features.8/block/block.1/block.1.2/Add_output_0: 3dc6dac1
+/features/features.8/block/block.1/block.1.2/Relu_output_0: 3dc6dac1
+/features/features.8/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.8/block/block.1/block.1.2/Mul_output_0: 3e95bf91
+(Unnamed Layer* 158) [Shuffle]_output: 3d418f1e
+/features/features.8/block/block.1/block.1.2/Div_output_0: 3d47aa16
+/features/features.8/block/block.2/avgpool/GlobalAveragePool_output_0: 3bc6dd69
+/features/features.8/block/block.2/fc1/Conv_output_0: 3ca522aa
+/features/features.8/block/block.2/activation/Relu_output_0: 3ca522aa
+/features/features.8/block/block.2/fc2/Conv_output_0: 3d0190e4
+/features/features.8/block/block.2/scale_activation/HardSigmoid_output_0: 3c0456dc
+/features/features.8/block/block.2/Mul_output_0: 3c2b526d
+/features/features.8/block/block.3/block.3.0/Conv_output_0: 3d2d40cc
+/features/features.8/Add_output_0: 3d56bbd8
+/features/features.9/block/block.0/block.0.0/Conv_output_0: 3d694b39
+(Unnamed Layer* 170) [Shuffle]_output: 3cc18f1e
+/features/features.9/block/block.0/block.0.2/Add_output_0: 3d8f5be7
+/features/features.9/block/block.0/block.0.2/Relu_output_0: 3d8f5be7
+/features/features.9/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.9/block/block.0/block.0.2/Mul_output_0: 3e1c3205
+(Unnamed Layer* 176) [Shuffle]_output: 3d418f1e
+/features/features.9/block/block.0/block.0.2/Div_output_0: 3cd042b1
+/features/features.9/block/block.1/block.1.0/Conv_output_0: 3d6f2064
+(Unnamed Layer* 180) [Shuffle]_output: 3cc18f1e
+/features/features.9/block/block.1/block.1.2/Add_output_0: 3d9a41a3
+/features/features.9/block/block.1/block.1.2/Relu_output_0: 3d9a41a3
+/features/features.9/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.9/block/block.1/block.1.2/Mul_output_0: 3e81e3a9
+(Unnamed Layer* 186) [Shuffle]_output: 3d418f1e
+/features/features.9/block/block.1/block.1.2/Div_output_0: 3d2d2f8c
+/features/features.9/block/block.2/avgpool/GlobalAveragePool_output_0: 3c2c4493
+/features/features.9/block/block.2/fc1/Conv_output_0: 3cb901ee
+/features/features.9/block/block.2/activation/Relu_output_0: 3c92014a
+/features/features.9/block/block.2/fc2/Conv_output_0: 3cb3cac1
+/features/features.9/block/block.2/scale_activation/HardSigmoid_output_0: 3bfb4cfd
+/features/features.9/block/block.2/Mul_output_0: 3c970105
+/features/features.9/block/block.3/block.3.0/Conv_output_0: 3d06557d
+/features/features.10/block/block.0/block.0.0/Conv_output_0: 3d24da3f
+(Unnamed Layer* 197) [Shuffle]_output: 3cc18f1e
+/features/features.10/block/block.0/block.0.2/Add_output_0: 3d64fea1
+/features/features.10/block/block.0/block.0.2/Relu_output_0: 3d64fea1
+/features/features.10/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.10/block/block.0/block.0.2/Mul_output_0: 3e27edc1
+(Unnamed Layer* 203) [Shuffle]_output: 3d418f1e
+/features/features.10/block/block.0/block.0.2/Div_output_0: 3cdfe7aa
+/features/features.10/block/block.1/block.1.0/Conv_output_0: 3d958ced
+(Unnamed Layer* 207) [Shuffle]_output: 3cc18f1e
+/features/features.10/block/block.1/block.1.2/Add_output_0: 3dc3f7fb
+/features/features.10/block/block.1/block.1.2/Relu_output_0: 3db93df2
+/features/features.10/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.10/block/block.1/block.1.2/Mul_output_0: 3e6b6e55
+(Unnamed Layer* 213) [Shuffle]_output: 3d418f1e
+/features/features.10/block/block.1/block.1.2/Div_output_0: 3d1cf437
+/features/features.10/block/block.2/avgpool/GlobalAveragePool_output_0: 3c1d20e6
+/features/features.10/block/block.2/fc1/Conv_output_0: 3cc5f2ce
+/features/features.10/block/block.2/activation/Relu_output_0: 3cc608ad
+/features/features.10/block/block.2/fc2/Conv_output_0: 3d1331cc
+/features/features.10/block/block.2/scale_activation/HardSigmoid_output_0: 3c073390
+/features/features.10/block/block.2/Mul_output_0: 3c5b4ac2
+/features/features.10/block/block.3/block.3.0/Conv_output_0: 3d045c27
+/features/features.10/Add_output_0: 3d3438ab
+/features/features.11/block/block.0/block.0.0/Conv_output_0: 3d58a35b
+(Unnamed Layer* 225) [Shuffle]_output: 3cc18f1e
+/features/features.11/block/block.0/block.0.2/Add_output_0: 3d71d451
+/features/features.11/block/block.0/block.0.2/Relu_output_0: 3d71d451
+/features/features.11/block/block.0/block.0.2/Clip_output_0: 3d418f1e
+/features/features.11/block/block.0/block.0.2/Mul_output_0: 3df51bc9
+(Unnamed Layer* 231) [Shuffle]_output: 3d418f1e
+/features/features.11/block/block.0/block.0.2/Div_output_0: 3ca367dc
+/features/features.11/block/block.1/block.1.0/Conv_output_0: 3da38728
+(Unnamed Layer* 235) [Shuffle]_output: 3cc18f1e
+/features/features.11/block/block.1/block.1.2/Add_output_0: 3dc9ca1d
+/features/features.11/block/block.1/block.1.2/Relu_output_0: 3dc9ca1d
+/features/features.11/block/block.1/block.1.2/Clip_output_0: 3d418f1e
+/features/features.11/block/block.1/block.1.2/Mul_output_0: 3e93e64a
+(Unnamed Layer* 241) [Shuffle]_output: 3d418f1e
+/features/features.11/block/block.1/block.1.2/Div_output_0: 3d45330d
+/features/features.11/block/block.2/avgpool/GlobalAveragePool_output_0: 3c434e85
+/features/features.11/block/block.2/fc1/Conv_output_0: 3d13228d
+/features/features.11/block/block.2/activation/Relu_output_0: 3d194f72
+/features/features.11/block/block.2/fc2/Conv_output_0: 3d45f992
+/features/features.11/block/block.2/scale_activation/HardSigmoid_output_0: 3c01c37f
+/features/features.11/block/block.2/Mul_output_0: 3c3e5920
+/features/features.11/block/block.3/block.3.0/Conv_output_0: 3d998765
+/features/features.11/Add_output_0: 3dcd0cd2
+/features/features.12/features.12.0/Conv_output_0: 3e56a6ea
+(Unnamed Layer* 253) [Shuffle]_output: 3cc18f1e
+/features/features.12/features.12.2/Add_output_0: 3e721941
+/features/features.12/features.12.2/Relu_output_0: 3e721941
+/features/features.12/features.12.2/Clip_output_0: 3d418f1e
+/features/features.12/features.12.2/Mul_output_0: 3f153d84
+(Unnamed Layer* 259) [Shuffle]_output: 3d418f1e
+/features/features.12/features.12.2/Div_output_0: 3dc6fcb0
+/avgpool/GlobalAveragePool_output_0: 3d501893
+/Flatten_output_0: 3d501893
+(Unnamed Layer* 263) [Shuffle]_output: 3d501893
+(Unnamed Layer* 264) [Fully Connected]_output: 3e64ef8c
+/classifier/classifier.0/Gemm_output_0: 3e64ef8c
+(Unnamed Layer* 267) [Shuffle]_output: 3cc18f1e
+/classifier/classifier.1/Add_output_0: 3e60a462
+/classifier/classifier.1/Relu_output_0: 3e698d8a
+/classifier/classifier.1/Clip_output_0: 3d418f1e
+/classifier/classifier.1/Mul_output_0: 3e80c562
+(Unnamed Layer* 273) [Shuffle]_output: 3d418f1e
+/classifier/classifier.1/Div_output_0: 3d2bb1d8
+(Unnamed Layer* 275) [Shuffle]_output: 3d2bb1d8
+(Unnamed Layer* 276) [Fully Connected]_output: 3e1795e3
+logits: 3e1795e3

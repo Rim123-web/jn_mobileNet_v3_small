@@ -1,0 +1,199 @@
+/usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_source.onnx --saveEngine=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/mobilenet_v3_small_tensorrt_fp16_1x3x640x640.engine --workspace=1024 --fp16 --noTF32 --inputIOFormats=fp32:chw --outputIOFormats=fp32:chw --timingCacheFile=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/timing_cache.bin --buildOnly 
+&&&& RUNNING TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_source.onnx --saveEngine=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/mobilenet_v3_small_tensorrt_fp16_1x3x640x640.engine --workspace=1024 --fp16 --noTF32 --inputIOFormats=fp32:chw --outputIOFormats=fp32:chw --timingCacheFile=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/timing_cache.bin --buildOnly
+[07/17/2026-14:24:53] [I] === Model Options ===
+[07/17/2026-14:24:53] [I] Format: ONNX
+[07/17/2026-14:24:53] [I] Model: /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_source.onnx
+[07/17/2026-14:24:53] [I] Output:
+[07/17/2026-14:24:53] [I] === Build Options ===
+[07/17/2026-14:24:53] [I] Max batch: explicit
+[07/17/2026-14:24:53] [I] Workspace: 1024 MiB
+[07/17/2026-14:24:53] [I] minTiming: 1
+[07/17/2026-14:24:53] [I] avgTiming: 8
+[07/17/2026-14:24:53] [I] Precision: FP32+FP16
+[07/17/2026-14:24:53] [I] Calibration: 
+[07/17/2026-14:24:53] [I] Refit: Disabled
+[07/17/2026-14:24:53] [I] Sparsity: Disabled
+[07/17/2026-14:24:53] [I] Safe mode: Disabled
+[07/17/2026-14:24:53] [I] Restricted mode: Disabled
+[07/17/2026-14:24:53] [I] Save engine: /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/mobilenet_v3_small_tensorrt_fp16_1x3x640x640.engine
+[07/17/2026-14:24:53] [I] Load engine: 
+[07/17/2026-14:24:53] [I] NVTX verbosity: 0
+[07/17/2026-14:24:53] [I] Tactic sources: Using default tactic sources
+[07/17/2026-14:24:53] [I] timingCacheMode: global
+[07/17/2026-14:24:53] [I] timingCacheFile: /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/timing_cache.bin
+[07/17/2026-14:24:53] [I] Input(s): fp32:chw
+[07/17/2026-14:24:53] [I] Output(s): fp32:chw
+[07/17/2026-14:24:53] [I] Input build shapes: model
+[07/17/2026-14:24:53] [I] Input calibration shapes: model
+[07/17/2026-14:24:53] [I] === System Options ===
+[07/17/2026-14:24:53] [I] Device: 0
+[07/17/2026-14:24:53] [I] DLACore: 
+[07/17/2026-14:24:53] [I] Plugins:
+[07/17/2026-14:24:53] [I] === Inference Options ===
+[07/17/2026-14:24:53] [I] Batch: Explicit
+[07/17/2026-14:24:53] [I] Input inference shapes: model
+[07/17/2026-14:24:53] [I] Iterations: 10
+[07/17/2026-14:24:53] [I] Duration: 3s (+ 200ms warm up)
+[07/17/2026-14:24:53] [I] Sleep time: 0ms
+[07/17/2026-14:24:53] [I] Streams: 1
+[07/17/2026-14:24:53] [I] ExposeDMA: Disabled
+[07/17/2026-14:24:53] [I] Data transfers: Enabled
+[07/17/2026-14:24:53] [I] Spin-wait: Disabled
+[07/17/2026-14:24:53] [I] Multithreading: Disabled
+[07/17/2026-14:24:53] [I] CUDA Graph: Disabled
+[07/17/2026-14:24:53] [I] Separate profiling: Disabled
+[07/17/2026-14:24:53] [I] Time Deserialize: Disabled
+[07/17/2026-14:24:53] [I] Time Refit: Disabled
+[07/17/2026-14:24:53] [I] Skip inference: Enabled
+[07/17/2026-14:24:53] [I] Inputs:
+[07/17/2026-14:24:53] [I] === Reporting Options ===
+[07/17/2026-14:24:53] [I] Verbose: Disabled
+[07/17/2026-14:24:53] [I] Averages: 10 inferences
+[07/17/2026-14:24:53] [I] Percentile: 99
+[07/17/2026-14:24:53] [I] Dump refittable layers:Disabled
+[07/17/2026-14:24:53] [I] Dump output: Disabled
+[07/17/2026-14:24:53] [I] Profile: Disabled
+[07/17/2026-14:24:53] [I] Export timing to JSON file: 
+[07/17/2026-14:24:53] [I] Export output to JSON file: 
+[07/17/2026-14:24:53] [I] Export profile to JSON file: 
+[07/17/2026-14:24:53] [I] 
+[07/17/2026-14:24:53] [I] === Device Information ===
+[07/17/2026-14:24:53] [I] Selected Device: NVIDIA Tegra X1
+[07/17/2026-14:24:53] [I] Compute Capability: 5.3
+[07/17/2026-14:24:53] [I] SMs: 1
+[07/17/2026-14:24:53] [I] Compute Clock Rate: 0.9216 GHz
+[07/17/2026-14:24:53] [I] Device Global Memory: 3962 MiB
+[07/17/2026-14:24:53] [I] Shared Memory per SM: 64 KiB
+[07/17/2026-14:24:53] [I] Memory Bus Width: 64 bits (ECC disabled)
+[07/17/2026-14:24:53] [I] Memory Clock Rate: 0.01275 GHz
+[07/17/2026-14:24:53] [I] 
+[07/17/2026-14:24:53] [I] TensorRT version: 8001
+[07/17/2026-14:24:55] [I] [TRT] [MemUsageChange] Init CUDA: CPU +203, GPU +0, now: CPU 221, GPU 3315 (MiB)
+[07/17/2026-14:24:55] [I] Start parsing network model
+[07/17/2026-14:24:55] [I] [TRT] ----------------------------------------------------------------
+[07/17/2026-14:24:55] [I] [TRT] Input filename:   /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_source.onnx
+[07/17/2026-14:24:55] [I] [TRT] ONNX IR version:  0.0.7
+[07/17/2026-14:24:55] [I] [TRT] Opset version:    12
+[07/17/2026-14:24:55] [I] [TRT] Producer name:    pytorch
+[07/17/2026-14:24:55] [I] [TRT] Producer version: 1.13.0
+[07/17/2026-14:24:55] [I] [TRT] Domain:           
+[07/17/2026-14:24:55] [I] [TRT] Model version:    0
+[07/17/2026-14:24:55] [I] [TRT] Doc string:       
+[07/17/2026-14:24:55] [I] [TRT] ----------------------------------------------------------------
+[07/17/2026-14:24:55] [I] Finish parsing network model
+[07/17/2026-14:24:55] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 228, GPU 3329 (MiB)
+[07/17/2026-14:24:55] [W] Could not read timing cache from: /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/timing_cache.bin. A new timing cache will be generated and written.
+[07/17/2026-14:24:55] [I] [TRT] [MemUsageSnapshot] Builder begin: CPU 228 MiB, GPU 3329 MiB
+[07/17/2026-14:24:55] [I] [TRT] ---------- Layers Running on DLA ----------
+[07/17/2026-14:24:55] [I] [TRT] ---------- Layers Running on GPU ----------
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.0/features.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.0/features.0.2/Constant_3_output_0 + (Unnamed Layer* 8) [Shuffle], PWN(PWN(PWN(/features/features.0/features.0.2/Constant_output_0 + (Unnamed Layer* 2) [Shuffle] + /features/features.0/features.0.2/Add + /features/features.0/features.0.2/Relu, /features/features.0/features.0.2/Clip), /features/features.0/features.0.2/Mul), /features/features.0/features.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.1/block/block.0/block.0.0/Conv + /features/features.1/block/block.0/block.0.2/Relu
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.1/block/block.1/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] 2-layer MLP: /features/features.1/block/block.1/fc1/Conv + /features/features.1/block/block.1/activation/Relu -> /features/features.1/block/block.1/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.1/block/block.1/scale_activation/HardSigmoid, /features/features.1/block/block.1/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.1/block/block.2/block.2.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.2/block/block.0/block.0.0/Conv + /features/features.2/block/block.0/block.0.2/Relu
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.2/block/block.1/block.1.0/Conv + /features/features.2/block/block.1/block.1.2/Relu
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.2/block/block.2/block.2.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.3/block/block.0/block.0.0/Conv + /features/features.3/block/block.0/block.0.2/Relu
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.3/block/block.1/block.1.0/Conv + /features/features.3/block/block.1/block.1.2/Relu
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.3/block/block.2/block.2.0/Conv + /features/features.3/Add
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.4/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.4/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 38) [Shuffle], PWN(PWN(PWN(/features/features.4/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 32) [Shuffle] + /features/features.4/block/block.0/block.0.2/Add + /features/features.4/block/block.0/block.0.2/Relu, /features/features.4/block/block.0/block.0.2/Clip), /features/features.4/block/block.0/block.0.2/Mul), /features/features.4/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.4/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.4/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 48) [Shuffle], PWN(PWN(PWN(/features/features.4/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 42) [Shuffle] + /features/features.4/block/block.1/block.1.2/Add + /features/features.4/block/block.1/block.1.2/Relu, /features/features.4/block/block.1/block.1.2/Clip), /features/features.4/block/block.1/block.1.2/Mul), /features/features.4/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.4/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] 2-layer MLP: /features/features.4/block/block.2/fc1/Conv + /features/features.4/block/block.2/activation/Relu -> /features/features.4/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.4/block/block.2/scale_activation/HardSigmoid, /features/features.4/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.4/block/block.3/block.3.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.5/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.5/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 65) [Shuffle], PWN(PWN(PWN(/features/features.5/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 59) [Shuffle] + /features/features.5/block/block.0/block.0.2/Add + /features/features.5/block/block.0/block.0.2/Relu, /features/features.5/block/block.0/block.0.2/Clip), /features/features.5/block/block.0/block.0.2/Mul), /features/features.5/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.5/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.5/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 75) [Shuffle], PWN(PWN(PWN(/features/features.5/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 69) [Shuffle] + /features/features.5/block/block.1/block.1.2/Add + /features/features.5/block/block.1/block.1.2/Relu, /features/features.5/block/block.1/block.1.2/Clip), /features/features.5/block/block.1/block.1.2/Mul), /features/features.5/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.5/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] 2-layer MLP: /features/features.5/block/block.2/fc1/Conv + /features/features.5/block/block.2/activation/Relu -> /features/features.5/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.5/block/block.2/scale_activation/HardSigmoid, /features/features.5/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.5/block/block.3/block.3.0/Conv + /features/features.5/Add
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.6/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.6/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 93) [Shuffle], PWN(PWN(PWN(/features/features.6/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 87) [Shuffle] + /features/features.6/block/block.0/block.0.2/Add + /features/features.6/block/block.0/block.0.2/Relu, /features/features.6/block/block.0/block.0.2/Clip), /features/features.6/block/block.0/block.0.2/Mul), /features/features.6/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.6/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.6/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 103) [Shuffle], PWN(PWN(PWN(/features/features.6/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 97) [Shuffle] + /features/features.6/block/block.1/block.1.2/Add + /features/features.6/block/block.1/block.1.2/Relu, /features/features.6/block/block.1/block.1.2/Clip), /features/features.6/block/block.1/block.1.2/Mul), /features/features.6/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.6/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] 2-layer MLP: /features/features.6/block/block.2/fc1/Conv + /features/features.6/block/block.2/activation/Relu -> /features/features.6/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.6/block/block.2/scale_activation/HardSigmoid, /features/features.6/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.6/block/block.3/block.3.0/Conv + /features/features.6/Add
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.7/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.7/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 121) [Shuffle], PWN(PWN(PWN(/features/features.7/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 115) [Shuffle] + /features/features.7/block/block.0/block.0.2/Add + /features/features.7/block/block.0/block.0.2/Relu, /features/features.7/block/block.0/block.0.2/Clip), /features/features.7/block/block.0/block.0.2/Mul), /features/features.7/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.7/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.7/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 131) [Shuffle], PWN(PWN(PWN(/features/features.7/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 125) [Shuffle] + /features/features.7/block/block.1/block.1.2/Add + /features/features.7/block/block.1/block.1.2/Relu, /features/features.7/block/block.1/block.1.2/Clip), /features/features.7/block/block.1/block.1.2/Mul), /features/features.7/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.7/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] 2-layer MLP: /features/features.7/block/block.2/fc1/Conv + /features/features.7/block/block.2/activation/Relu -> /features/features.7/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.7/block/block.2/scale_activation/HardSigmoid, /features/features.7/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.7/block/block.3/block.3.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.8/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.8/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 148) [Shuffle], PWN(PWN(PWN(/features/features.8/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 142) [Shuffle] + /features/features.8/block/block.0/block.0.2/Add + /features/features.8/block/block.0/block.0.2/Relu, /features/features.8/block/block.0/block.0.2/Clip), /features/features.8/block/block.0/block.0.2/Mul), /features/features.8/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.8/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.8/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 158) [Shuffle], PWN(PWN(PWN(/features/features.8/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 152) [Shuffle] + /features/features.8/block/block.1/block.1.2/Add + /features/features.8/block/block.1/block.1.2/Relu, /features/features.8/block/block.1/block.1.2/Clip), /features/features.8/block/block.1/block.1.2/Mul), /features/features.8/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.8/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] 2-layer MLP: /features/features.8/block/block.2/fc1/Conv + /features/features.8/block/block.2/activation/Relu -> /features/features.8/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.8/block/block.2/scale_activation/HardSigmoid, /features/features.8/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.8/block/block.3/block.3.0/Conv + /features/features.8/Add
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.9/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.9/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 176) [Shuffle], PWN(PWN(PWN(/features/features.9/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 170) [Shuffle] + /features/features.9/block/block.0/block.0.2/Add + /features/features.9/block/block.0/block.0.2/Relu, /features/features.9/block/block.0/block.0.2/Clip), /features/features.9/block/block.0/block.0.2/Mul), /features/features.9/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.9/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.9/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 186) [Shuffle], PWN(PWN(PWN(/features/features.9/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 180) [Shuffle] + /features/features.9/block/block.1/block.1.2/Add + /features/features.9/block/block.1/block.1.2/Relu, /features/features.9/block/block.1/block.1.2/Clip), /features/features.9/block/block.1/block.1.2/Mul), /features/features.9/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.9/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] 2-layer MLP: /features/features.9/block/block.2/fc1/Conv + /features/features.9/block/block.2/activation/Relu -> /features/features.9/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.9/block/block.2/scale_activation/HardSigmoid, /features/features.9/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.9/block/block.3/block.3.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.10/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.10/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 203) [Shuffle], PWN(PWN(PWN(/features/features.10/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 197) [Shuffle] + /features/features.10/block/block.0/block.0.2/Add + /features/features.10/block/block.0/block.0.2/Relu, /features/features.10/block/block.0/block.0.2/Clip), /features/features.10/block/block.0/block.0.2/Mul), /features/features.10/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.10/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.10/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 213) [Shuffle], PWN(PWN(PWN(/features/features.10/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 207) [Shuffle] + /features/features.10/block/block.1/block.1.2/Add + /features/features.10/block/block.1/block.1.2/Relu, /features/features.10/block/block.1/block.1.2/Clip), /features/features.10/block/block.1/block.1.2/Mul), /features/features.10/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.10/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.10/block/block.2/fc1/Conv + /features/features.10/block/block.2/activation/Relu
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.10/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.10/block/block.2/scale_activation/HardSigmoid, /features/features.10/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.10/block/block.3/block.3.0/Conv + /features/features.10/Add
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.11/block/block.0/block.0.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.11/block/block.0/block.0.2/Constant_3_output_0 + (Unnamed Layer* 231) [Shuffle], PWN(PWN(PWN(/features/features.11/block/block.0/block.0.2/Constant_output_0 + (Unnamed Layer* 225) [Shuffle] + /features/features.11/block/block.0/block.0.2/Add + /features/features.11/block/block.0/block.0.2/Relu, /features/features.11/block/block.0/block.0.2/Clip), /features/features.11/block/block.0/block.0.2/Mul), /features/features.11/block/block.0/block.0.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.11/block/block.1/block.1.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.11/block/block.1/block.1.2/Constant_3_output_0 + (Unnamed Layer* 241) [Shuffle], PWN(PWN(PWN(/features/features.11/block/block.1/block.1.2/Constant_output_0 + (Unnamed Layer* 235) [Shuffle] + /features/features.11/block/block.1/block.1.2/Add + /features/features.11/block/block.1/block.1.2/Relu, /features/features.11/block/block.1/block.1.2/Clip), /features/features.11/block/block.1/block.1.2/Mul), /features/features.11/block/block.1/block.1.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.11/block/block.2/avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.11/block/block.2/fc1/Conv + /features/features.11/block/block.2/activation/Relu
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.11/block/block.2/fc2/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.11/block/block.2/scale_activation/HardSigmoid, /features/features.11/block/block.2/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.11/block/block.3/block.3.0/Conv + /features/features.11/Add
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /features/features.12/features.12.0/Conv
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/features/features.12/features.12.2/Constant_3_output_0 + (Unnamed Layer* 259) [Shuffle], PWN(PWN(PWN(/features/features.12/features.12.2/Constant_output_0 + (Unnamed Layer* 253) [Shuffle] + /features/features.12/features.12.2/Add + /features/features.12/features.12.2/Relu, /features/features.12/features.12.2/Clip), /features/features.12/features.12.2/Mul), /features/features.12/features.12.2/Div))
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /avgpool/GlobalAveragePool
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /classifier/classifier.0/Gemm
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(PWN(/classifier/classifier.1/Constant_output_0 + (Unnamed Layer* 267) [Shuffle] + unsqueeze_node_after_/classifier/classifier.1/Constant_output_0 + (Unnamed Layer* 267) [Shuffle] + /classifier/classifier.1/Add + /classifier/classifier.1/Relu, /classifier/classifier.1/Clip), /classifier/classifier.1/Mul)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] copied_squeeze_after_/classifier/classifier.1/Mul
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] PWN(/classifier/classifier.1/Constant_3_output_0 + (Unnamed Layer* 273) [Shuffle], /classifier/classifier.1/Div)
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] (Unnamed Layer* 275) [Shuffle]
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] /classifier/classifier.3/Gemm
+[07/17/2026-14:24:55] [I] [TRT] [GpuLayer] (Unnamed Layer* 277) [Shuffle]
+[07/17/2026-14:24:56] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +156, now: CPU 386, GPU 3485 (MiB)
+[07/17/2026-14:24:58] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +241, GPU +230, now: CPU 627, GPU 3715 (MiB)
+[07/17/2026-14:32:35] [I] [TRT] Some tactics do not have sufficient workspace memory to run. Increasing workspace size may increase performance, please check verbose output.
+[07/17/2026-14:33:40] [I] [TRT] Detected 1 inputs and 1 output network tensors.
+[07/17/2026-14:33:40] [I] [TRT] Total Host Persistent Memory: 86496
+[07/17/2026-14:33:40] [I] [TRT] Total Device Persistent Memory: 2006016
+[07/17/2026-14:33:40] [I] [TRT] Total Scratch Memory: 288
+[07/17/2026-14:33:40] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 4 MiB, GPU 601 MiB
+[07/17/2026-14:33:40] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 879, GPU 3595 (MiB)
+[07/17/2026-14:33:40] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 879, GPU 3596 (MiB)
+[07/17/2026-14:33:40] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 879, GPU 3596 (MiB)
+[07/17/2026-14:33:40] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 878, GPU 3596 (MiB)
+[07/17/2026-14:33:40] [I] [TRT] [MemUsageSnapshot] Builder end: CPU 878 MiB, GPU 3596 MiB
+[07/17/2026-14:33:41] [I] [TRT] Loaded engine size: 6 MB
+[07/17/2026-14:33:41] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine begin: CPU 878 MiB, GPU 3598 MiB
+[07/17/2026-14:33:41] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 881, GPU 3598 (MiB)
+[07/17/2026-14:33:41] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 881, GPU 3598 (MiB)
+[07/17/2026-14:33:41] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 881, GPU 3598 (MiB)
+[07/17/2026-14:33:41] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine end: CPU 881 MiB, GPU 3598 MiB
+[07/17/2026-14:33:41] [I] Saved 100656 bytes of timing cache to /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/timing_cache.bin
+[07/17/2026-14:33:41] [I] Engine built in 527.746 sec.
+&&&& PASSED TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_source.onnx --saveEngine=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/mobilenet_v3_small_tensorrt_fp16_1x3x640x640.engine --workspace=1024 --fp16 --noTF32 --inputIOFormats=fp32:chw --outputIOFormats=fp32:chw --timingCacheFile=/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/timing_cache.bin --buildOnly

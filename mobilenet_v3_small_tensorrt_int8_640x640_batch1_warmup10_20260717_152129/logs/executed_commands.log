@@ -1,0 +1,82 @@
+# MobileNetV3-Small TensorRT INT8 executed command record
+# Generated: 2026-07-17T15:44:19+0200
+
+[prepare]
+purpose=Create and audit the isolated INT8 benchmark package without modifying references.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/prepare_int8_project.py
+start_time=None
+end_time=2026-07-17T15:24:45.221105+02:00
+exit_code=0
+stdout_stderr=logs/preparation.log
+
+[select_calibration_subset]
+purpose=Select the deterministic balanced 90-image independent calibration subset.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/select_calibration_subset.py
+start_time=None
+end_time=2026-07-17T15:24:48.969177+02:00
+exit_code=0
+stdout_stderr=logs/calibration_subset_selection.log
+
+[build_int8_engine]
+purpose=Calibrate with IInt8EntropyCalibrator2 and build the fresh TensorRT INT8-enabled engine.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/build_int8_engine.py
+start_time=2026-07-17T15:26:02.773428+02:00
+end_time=2026-07-17T15:33:37.911265+02:00
+exit_code=0
+stdout_stderr=logs/int8_build_console.log
+
+[correctness_validation]
+purpose=Validate output shape, finite logits, prediction diversity, and reference agreement.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/validate_int8_correctness.py
+start_time=2026-07-17T15:35:13.515990+02:00
+end_time=2026-07-17T15:35:30.369413+02:00
+exit_code=0
+stdout_stderr=logs/correctness_validation.log
+
+[idle_capture]
+purpose=Capture the 30-second idle Jetson module power baseline.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/run_idle_monitor.py
+start_time=2026-07-17T15:36:15.622851+02:00
+end_time=2026-07-17T15:36:45.622851+02:00
+exit_code=0
+stdout_stderr=logs/idle_capture.log
+
+[finalize_idle_prebenchmark]
+purpose=Validate idle telemetry and save the process snapshot before the official run.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/finalize_idle_prebenchmark.py
+start_time=None
+end_time=2026-07-17T15:36:46.214862+02:00
+exit_code=0
+stdout_stderr=logs/finalize_idle_prebenchmark.log
+
+[official_benchmark]
+purpose=Execute exactly 10 excluded warmups and one measured pass over all 261 test images.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/benchmark_mobilenet_v3_small_int8_warmup10.py
+start_time=2026-07-17T15:37:12.509562+02:00
+end_time=2026-07-17T15:37:49.317441+02:00
+exit_code=0
+stdout_stderr=logs/official_benchmark.log
+
+[create_postbenchmark_evidence]
+purpose=Create the official event stream and descriptive latency-stability evidence from frozen raw rows.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/create_postbenchmark_evidence.py
+start_time=None
+end_time=2026-07-17T15:37:51.364107+02:00
+exit_code=0
+stdout_stderr=logs/postbenchmark_evidence.log
+
+[finalize_results]
+purpose=Derive metrics, performance, energy, comparisons, figures, reports, and validation.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/finalize_results.py
+start_time=None
+end_time=2026-07-17T15:41:24.380177+02:00
+exit_code=0
+stdout_stderr=logs/finalize_results.log
+
+[record_execution_provenance]
+purpose=Record the exact executed code, commands, purposes, timestamps, logs, and exit codes.
+command=PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/scripts/record_execution_provenance.py
+start_time=2026-07-17T15:44:19.055210+02:00
+end_time=2026-07-17T15:44:19.055210+02:00
+exit_code=0
+stdout_stderr=logs/execution_provenance.log

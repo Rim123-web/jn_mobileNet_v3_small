@@ -1,0 +1,27 @@
+LOCAL PACKAGE VERIFICATION: PASS
+Package: C:\Users\Hiba\Desktop\results\Classification_results\jetson_nano_benchmark\mobileNet_v3_small\mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129
+Manifest entries verified: 348/348
+all_manifest_hashes_match: True
+manifest_covers_payload: True
+remote_final_validation_pass: True
+measured_images_exactly_261: True
+warmups_exactly_10: True
+process_events_exactly_535: True
+active_and_idle_telemetry_present: True
+publication_figures_complete: True
+
+Counts:
+manifest_rows: 348
+verified_manifest_rows: 348
+package_files_excluding_manifest: 348
+timing_rows: 261
+prediction_rows: 261
+per_image_result_rows: 261
+warmup_rows: 10
+process_event_rows: 535
+active_power_samples: 70
+idle_power_samples: 60
+png_figures: 29
+svg_figures: 29
+pdf_figures: 29
+plot_data_csv: 29

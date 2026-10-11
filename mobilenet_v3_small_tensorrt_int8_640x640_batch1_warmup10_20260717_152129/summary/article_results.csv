@@ -1,0 +1,2 @@
+model,precision,images,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,engine_latency_mean_ms,end_to_end_latency_mean_ms,engine_fps,transfer_inclusive_fps,pipeline_fps,wall_clock_fps,avg_power_tot_w,gross_energy_per_image_j,idle_corrected_energy_per_image_j
+MobileNetV3-Small,TensorRT INT8-enabled execution,261,0.9731800766283525,0.9473147085087383,0.9576719576719577,0.9518572587185726,0.9734228262997455,33.557010811407444,140.6151934137931,29.800032119072352,27.44671293465251,7.111607044178122,7.0908736887775845,5.1019,0.7115966732410636,0.3028153213926049

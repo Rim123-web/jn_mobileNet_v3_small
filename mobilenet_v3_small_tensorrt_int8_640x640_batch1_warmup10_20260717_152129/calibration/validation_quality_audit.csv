@@ -1,0 +1,4 @@
+class_id,class_name,image_count,mapping_exact,corrupt_images,zero_byte_images,duplicate_hash_groups,status
+0,class_1_asymptomatic,155,True,0,0,0,PASS
+1,class_2_mild_symptoms,70,True,0,0,0,PASS
+2,class_3_symptomatic_compromised,35,True,0,0,0,PASS

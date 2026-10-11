@@ -1,0 +1,16 @@
+MobileNetV3-Small ONNX Export Report
+=============================================
+Source checkpoint: C:\Users\Hiba\Desktop\results\mobilenet_v3_small\data-classification-albumentation-1\mobilenet-v3-small-v1-data-classification-albumentation-1\best_mobilenet_v3_small_rgb.pt
+Output ONNX: C:\Users\Hiba\Desktop\results\mobilenet_v3_small\data-classification-albumentation-1\mobilenet-v3-small-v1-data-classification-albumentation-1\inference_models\mobilenet-v3-small-v1-data-classification-albumentation-1.onnx
+Input shape: [1, 3, 640, 640]
+Classes: {'0': 'class_1_asymptomatic', '1': 'class_2_mild_symptoms', '2': 'class_3_symptomatic_compromised'}
+
+Checkpoint type detected: checkpoint_dict_with_model_state_dict
+Note: Loaded reconstructed MobileNetV3-Small with strict=True.
+PyTorch dummy forward output shape: (1, 3)
+ONNX file exists: True
+ONNX file size bytes: 6093345
+ONNX checker: PASS
+ONNXRuntime dummy inference: SKIPPED because onnxruntime is not installed.
+
+Export succeeded: YES

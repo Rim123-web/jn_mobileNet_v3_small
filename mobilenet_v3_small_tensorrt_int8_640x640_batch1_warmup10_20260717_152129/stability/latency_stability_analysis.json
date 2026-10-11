@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "source": "raw/per_image_timings.csv from the single official measured pass",
+  "measured_rows": 261,
+  "official_event_count": 535,
+  "quartiles": [
+    {
+      "quartile": 1,
+      "first_measured_index": 1,
+      "last_measured_index": 65,
+      "count": 65,
+      "mean_engine_latency_ms": 33.631996800349306,
+      "median_engine_latency_ms": 33.526615142822266,
+      "p95_engine_latency_ms": 33.68542556762695,
+      "mean_end_to_end_latency_ms": 167.89415803076923,
+      "median_end_to_end_latency_ms": 116.321702,
+      "p95_end_to_end_latency_ms": 176.74776199999982
+    },
+    {
+      "quartile": 2,
+      "first_measured_index": 66,
+      "last_measured_index": 130,
+      "count": 65,
+      "mean_engine_latency_ms": 33.53894858727088,
+      "median_engine_latency_ms": 33.53078079223633,
+      "p95_engine_latency_ms": 33.630853271484376,
+      "mean_end_to_end_latency_ms": 194.68719010769232,
+      "median_end_to_end_latency_ms": 138.267434,
+      "p95_end_to_end_latency_ms": 593.5330801999995
+    },
+    {
+      "quartile": 3,
+      "first_measured_index": 131,
+      "last_measured_index": 195,
+      "count": 65,
+      "mean_engine_latency_ms": 33.526725827730615,
+      "median_engine_latency_ms": 33.51567840576172,
+      "p95_engine_latency_ms": 33.589291381835935,
+      "mean_end_to_end_latency_ms": 110.99479381538461,
+      "median_end_to_end_latency_ms": 89.613743,
+      "p95_end_to_end_latency_ms": 164.38110920000003
+    },
+    {
+      "quartile": 4,
+      "first_measured_index": 196,
+      "last_measured_index": 261,
+      "count": 66,
+      "mean_engine_latency_ms": 33.53077564817487,
+      "median_engine_latency_ms": 33.51921844482422,
+      "p95_engine_latency_ms": 33.62197971343994,
+      "mean_end_to_end_latency_ms": 89.6684280909091,
+      "median_end_to_end_latency_ms": 89.709917,
+      "p95_end_to_end_latency_ms": 90.99233775000002
+    }
+  ],
+  "first_to_last_engine_mean_change_percent": -0.30096682268174746,
+  "interpretation": "Descriptive run-order stability from one full dataset pass."
+}

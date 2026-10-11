@@ -1,0 +1,335 @@
+pid,ppid,elapsed_s,cpu_percent,memory_percent,command
+1,0,8418,0.1,0.1,/sbin/init 2
+2,0,8418,0.0,0.0,[kthreadd]
+3,2,8418,0.0,0.0,[ksoftirqd/0]
+5,2,8418,0.0,0.0,[kworker/0:0H]
+7,2,8418,0.0,0.0,[rcu_preempt]
+8,2,8418,0.0,0.0,[rcu_sched]
+9,2,8418,0.0,0.0,[rcu_bh]
+10,2,8418,0.0,0.0,[migration/0]
+11,2,8418,0.0,0.0,[lru-add-drain]
+12,2,8418,0.0,0.0,[watchdog/0]
+13,2,8418,0.0,0.0,[cpuhp/0]
+14,2,8418,0.0,0.0,[cpuhp/1]
+15,2,8418,0.0,0.0,[watchdog/1]
+16,2,8418,0.0,0.0,[migration/1]
+17,2,8418,0.0,0.0,[ksoftirqd/1]
+19,2,8418,0.0,0.0,[kworker/1:0H]
+20,2,8418,0.0,0.0,[cpuhp/2]
+21,2,8418,0.0,0.0,[watchdog/2]
+22,2,8418,0.0,0.0,[migration/2]
+23,2,8418,0.0,0.0,[ksoftirqd/2]
+25,2,8418,0.0,0.0,[kworker/2:0H]
+26,2,8418,0.0,0.0,[cpuhp/3]
+27,2,8418,0.0,0.0,[watchdog/3]
+28,2,8418,0.0,0.0,[migration/3]
+29,2,8418,0.0,0.0,[ksoftirqd/3]
+31,2,8418,0.0,0.0,[kworker/3:0H]
+32,2,8418,0.0,0.0,[kdevtmpfs]
+33,2,8418,0.0,0.0,[netns]
+97,2,8418,0.0,0.0,[irq/18-mc_statu]
+591,2,8418,0.0,0.0,[khungtaskd]
+592,2,8418,0.0,0.0,[oom_reaper]
+593,2,8418,0.0,0.0,[writeback]
+595,2,8418,0.0,0.0,[kcompactd0]
+596,2,8418,0.0,0.0,[ksmd]
+597,2,8418,0.0,0.0,[khugepaged]
+598,2,8418,0.0,0.0,[crypto]
+599,2,8418,0.0,0.0,[kintegrityd]
+600,2,8418,0.0,0.0,[bioset]
+602,2,8418,0.0,0.0,[kblockd]
+622,2,8418,0.0,0.0,[ata_sff]
+646,2,8418,0.0,0.0,[irq/355-max7762]
+695,2,8418,0.0,0.0,[devfreq_wq]
+721,2,8418,0.0,0.0,[watchdogd]
+738,2,8418,0.0,0.0,[vpr-shrink_thre]
+739,2,8418,0.1,0.0,[nvmap-bz]
+831,2,8418,0.0,0.0,[rpciod]
+832,2,8418,0.0,0.0,[xprtiod]
+835,2,8418,0.0,0.0,[host_low_prio_w]
+836,2,8418,0.6,0.0,[irq/69-host_syn]
+837,2,8418,0.0,0.0,[irq/70-host_sta]
+877,2,8418,0.1,0.0,[kswapd0]
+878,2,8418,0.0,0.0,[vmstat]
+960,2,8418,0.0,0.0,[SquashFS read w]
+963,2,8418,0.0,0.0,[nfsiod]
+1003,2,8418,0.0,0.0,[kthrotld]
+1075,2,8418,0.0,0.0,[nvhdcp0]
+1087,2,8418,0.0,0.0,[nvhdcp0]
+1096,2,8418,0.0,0.0,[tegradc.0/a]
+1097,2,8418,0.0,0.0,[tegradc.0/b]
+1098,2,8418,0.0,0.0,[tegradc.0/c]
+1099,2,8418,0.0,0.0,[tegradc.0/d]
+1100,2,8418,0.0,0.0,[tegradc.0/e]
+1101,2,8418,0.0,0.0,[tegradc.0/sl]
+1102,2,8418,0.7,0.0,[irq/74-tegradc.]
+1213,2,8418,0.0,0.0,[irq/324-tegradc]
+1226,2,8418,0.0,0.0,[bioset]
+1227,2,8418,0.0,0.0,[bioset]
+1228,2,8418,0.0,0.0,[bioset]
+1229,2,8418,0.0,0.0,[bioset]
+1230,2,8418,0.0,0.0,[bioset]
+1232,2,8418,0.0,0.0,[bioset]
+1233,2,8418,0.0,0.0,[bioset]
+1234,2,8418,0.0,0.0,[bioset]
+1235,2,8418,0.0,0.0,[bioset]
+1236,2,8418,0.0,0.0,[bioset]
+1237,2,8418,0.0,0.0,[bioset]
+1238,2,8418,0.0,0.0,[bioset]
+1239,2,8418,0.0,0.0,[bioset]
+1240,2,8418,0.0,0.0,[bioset]
+1241,2,8418,0.0,0.0,[bioset]
+1242,2,8418,0.0,0.0,[bioset]
+1276,2,8418,0.0,0.0,[bioset]
+1279,2,8418,0.0,0.0,[bioset]
+1282,2,8418,0.0,0.0,[bioset]
+1285,2,8418,0.0,0.0,[bioset]
+1288,2,8418,0.0,0.0,[bioset]
+1291,2,8418,0.0,0.0,[bioset]
+1294,2,8418,0.0,0.0,[bioset]
+1297,2,8418,0.0,0.0,[bioset]
+1307,2,8418,0.0,0.0,[kworker/u9:0]
+1326,2,8418,0.0,0.0,[nvme]
+1335,2,8418,0.0,0.0,[irq/66-7000d400]
+1337,2,8418,0.0,0.0,[spi0]
+1339,2,8418,0.0,0.0,[irq/77-tegra_dp]
+1340,2,8418,0.0,0.0,[irq/67-7000d600]
+1341,2,8418,0.0,0.0,[spi1]
+1342,2,8418,0.0,0.0,[irq/68-70410000]
+1343,2,8418,0.0,0.0,[spi32766]
+1354,2,8418,0.0,0.0,[bioset]
+1412,2,8418,0.0,0.0,[tegradc.1/a]
+1413,2,8418,0.0,0.0,[tegradc.1/b]
+1414,2,8418,0.0,0.0,[tegradc.1/c]
+1415,2,8418,0.0,0.0,[tegradc.1/d]
+1416,2,8418,0.0,0.0,[tegradc.1/e]
+1417,2,8418,0.0,0.0,[tegradc.1/sl]
+1418,2,8418,0.0,0.0,[irq/75-tegradc.]
+1419,2,8418,0.0,0.0,[ixgbe]
+1430,2,8418,0.0,0.0,[mlxsw_core]
+1452,2,8418,0.0,0.0,[vfio-irqfd-clea]
+1466,2,8417,0.0,0.0,[uas]
+1486,2,8417,0.0,0.0,[irq/60-70090000]
+1488,2,8417,0.0,0.0,[irq/62-70090000]
+1506,2,8417,0.0,0.0,[irq/19-tegra_rt]
+1552,2,8417,0.0,0.0,[irq/95-700e2000]
+1555,2,8417,0.0,0.0,[irq/96-soctherm]
+1571,2,8417,0.0,0.0,[irq/301-pwm-fan]
+1577,2,8417,0.0,0.0,[kworker/0:1H]
+1584,2,8417,0.0,0.0,[cfinteractive]
+1593,2,8417,0.0,0.0,[irq/92-mmc0]
+1704,2,8417,0.0,0.0,[irq/13-6000c800]
+1784,2,8417,0.0,0.0,[irq/300-sdhci-t]
+1815,2,8417,0.0,0.0,[ipv6_addrconf]
+1817,2,8417,0.0,0.0,[krfcommd]
+1875,2,8417,0.0,0.0,[bioset]
+1876,2,8417,0.1,0.0,[mmcqd/0]
+1897,2,8417,0.0,0.0,[kworker/3:1H]
+1898,2,8417,0.0,0.0,[jbd2/mmcblk0p1-]
+1899,2,8417,0.0,0.0,[ext4-rsv-conver]
+1959,2,8416,0.0,0.0,[kworker/u9:1]
+2034,1,8416,0.0,0.1,/lib/systemd/systemd-journald
+2114,2,8416,0.0,0.0,[kauditd]
+2572,2,8416,0.0,0.0,[irq/80-gk20a_st]
+3675,2,8416,0.0,0.0,[loop0]
+3694,2,8416,0.0,0.0,[loop1]
+3761,2,8416,0.0,0.0,[loop2]
+3763,2,8416,0.0,0.0,[loop3]
+3826,2,8416,0.0,0.0,[loop4]
+3828,2,8415,0.0,0.0,[loop5]
+3895,1,8415,0.0,0.0,/lib/systemd/systemd-udevd
+3907,2,8415,0.0,0.0,[loop6]
+3912,2,8415,0.0,0.0,[loop7]
+3914,2,8415,0.0,0.0,[bioset]
+3918,2,8415,0.0,0.0,[loop8]
+3952,2,8415,0.0,0.0,[bioset]
+3955,2,8415,0.0,0.0,[loop9]
+3958,2,8415,0.0,0.0,[bioset]
+3959,2,8415,0.0,0.0,[loop10]
+3971,2,8415,0.0,0.0,[bioset]
+3975,2,8415,0.0,0.0,[loop11]
+3977,2,8415,0.0,0.0,[kworker/1:1H]
+3981,2,8415,0.0,0.0,[kworker/2:1H]
+3990,2,8415,0.0,0.0,[bioset]
+3996,2,8415,0.0,0.0,[loop12]
+4001,2,8415,0.0,0.0,[bioset]
+4004,2,8415,0.0,0.0,[loop13]
+4010,2,8415,0.0,0.0,[bioset]
+4013,2,8415,0.0,0.0,[loop14]
+4018,2,8415,0.0,0.0,[bioset]
+4022,2,8415,0.0,0.0,[loop15]
+4156,1,8415,0.0,0.0,/sbin/rpcbind -f -w
+4169,1,8415,0.0,0.1,/lib/systemd/systemd-resolved
+4171,1,8415,0.0,0.0,/lib/systemd/systemd-timesyncd
+4776,2,8413,0.0,0.0,[cfg80211]
+4802,1,8413,0.0,0.0,/usr/sbin/haveged --Foreground --verbose=1 -w 1024
+4825,1,8413,0.0,0.1,/usr/lib/accountsservice/accounts-daemon
+4848,1,8413,0.0,0.0,avahi-daemon: running [nano.local]
+4871,1,8413,0.0,0.0,/usr/sbin/cron -f
+4879,1,8413,0.1,0.1,/usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4893,1,8413,0.1,0.2,/usr/sbin/NetworkManager --no-daemon
+4976,1,8413,0.0,0.0,/usr/sbin/irqbalance --foreground
+5022,1,8413,0.0,0.1,/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+5073,1,8413,0.5,0.1,/usr/lib/policykit-1/polkitd --no-debug
+5103,1,8413,0.0,0.0,/usr/sbin/rsyslogd -n -iNONE
+5134,1,8413,0.1,0.7,/usr/lib/snapd/snapd
+5138,1,8413,0.0,0.0,/usr/libexec/switcheroo-control
+5159,1,8413,0.0,0.0,/lib/systemd/systemd-logind
+5161,1,8413,0.0,0.2,/usr/lib/udisks2/udisksd
+5173,1,8413,0.0,0.0,/sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+5199,4848,8412,0.0,0.0,avahi-daemon: chroot helper
+5217,1,8412,0.0,0.0,/usr/sbin/gpsd
+5463,2,8412,0.0,0.0,[sugov:0]
+5601,1,8412,0.0,0.1,/usr/bin/whoopsie -f
+5643,1,8412,0.0,0.3,/usr/bin/containerd
+5675,1,8411,0.0,0.1,/usr/sbin/ModemManager
+5702,2,8411,0.0,0.0,[bioset]
+5716,1,8411,0.0,0.0,/usr/sbin/kerneloops --test
+5785,1,8411,0.0,0.0,/usr/sbin/kerneloops
+5802,2,8411,0.0,0.0,[kworker/3:4]
+5803,1,8411,0.0,0.0,sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+5926,2,8410,0.0,0.0,[file-storage]
+5946,1,8410,0.0,0.0,/bin/bash /etc/systemd/nvmemwarning.sh
+5957,1,8410,0.0,0.0,/usr/sbin/nvs-service
+5972,1,8410,0.0,0.0,"/sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220"
+6013,2,8410,0.6,0.0,[nvgpu_channel_p]
+6014,1,8410,0.0,0.8,/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+6027,2,8410,0.0,0.0,[loop16]
+6047,1,8410,0.0,0.0,"/sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyGS0 vt220"
+6064,1,8410,0.0,0.0,/usr/sbin/nvargus-daemon
+6070,1,8410,0.0,0.0,/bin/bash /etc/systemd/nvgetty.sh
+6161,6070,8410,0.0,0.0,/sbin/getty -L 115200 ttyTHS1
+6191,2,8410,0.0,0.0,[bioset]
+6196,2,8410,0.0,0.0,[bioset]
+6200,2,8410,0.0,0.0,[bioset]
+6203,2,8410,0.0,0.0,[bioset]
+6284,1,8409,0.0,0.0,/usr/sbin/nvphsd
+6351,6284,8409,0.0,0.0,/usr/sbin/nvphsd
+6518,2,8408,0.0,0.0,[bioset]
+6832,1,8407,0.0,0.1,/usr/bin/python3 /usr/local/bin/jtop --force
+7030,6832,8406,0.0,0.2,/usr/bin/python3 /usr/local/bin/jtop --force
+7038,6832,8406,0.1,0.3,/usr/bin/python3 /usr/local/bin/jtop --force
+7225,1,8399,0.0,0.0,/usr/sbin/gdm3
+7255,7225,8399,0.0,0.0,gdm-session-worker [pam/gdm-autologin]
+7291,1,8399,0.0,0.0,/lib/systemd/systemd --user
+7310,7291,8399,0.0,0.0,(sd-pam)
+7320,7291,8399,0.0,0.2,/usr/bin/pulseaudio --daemonize=no --log-target=journal
+7322,7291,8399,0.0,0.2,/usr/libexec/tracker-miner-fs
+7345,1,8399,0.0,0.0,/usr/bin/gnome-keyring-daemon --daemonize --login
+7353,7255,8399,0.0,0.0,/usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+7355,7353,8399,1.7,0.4,/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+7356,1,8398,0.0,0.0,/usr/libexec/rtkit-daemon
+7382,7291,8398,0.0,0.0,/usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+7388,7291,8398,0.0,0.0,/usr/libexec/gvfsd
+7403,7291,8398,0.0,0.0,/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+7411,7291,8398,0.0,0.1,/usr/libexec/gvfs-udisks2-volume-monitor
+7437,7291,8398,0.0,0.0,/usr/libexec/gvfs-goa-volume-monitor
+7441,7291,8398,0.0,0.2,/usr/libexec/goa-daemon
+7448,7353,8397,0.0,0.0,/usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+7453,1,8397,0.0,0.0,"/usr/lib/bluetooth/bluetoothd -d --noplugin=audio,a2dp,avrcp"
+7467,7291,8397,0.0,0.0,/usr/libexec/goa-identity-service
+7482,7291,8397,0.0,0.1,/usr/libexec/gvfs-afc-volume-monitor
+7490,7291,8397,0.0,0.0,/usr/libexec/gvfs-gphoto2-volume-monitor
+7494,7291,8397,0.0,0.1,/usr/libexec/gvfs-mtp-volume-monitor
+7498,1,8397,0.0,0.0,/usr/lib/upower/upowerd
+7626,7448,8396,0.0,0.0,/usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+7644,7291,8396,0.0,0.0,/usr/libexec/at-spi-bus-launcher
+7649,7644,8396,0.0,0.0,/usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+7656,7291,8396,0.0,0.0,/usr/libexec/gnome-session-ctl --monitor
+7663,7291,8396,0.0,0.2,/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+7677,7291,8395,1.3,3.4,/usr/bin/gnome-shell
+7700,7677,8392,0.0,0.0,ibus-daemon --panel disable --xim
+7704,7700,8392,0.0,0.0,/usr/libexec/ibus-memconf
+7705,7700,8392,0.0,0.2,/usr/libexec/ibus-extension-gtk3
+7707,7291,8392,0.0,0.2,/usr/libexec/ibus-x11 --kill-daemon
+7712,7291,8392,0.0,0.0,/usr/libexec/ibus-portal
+7721,7291,8392,0.0,0.0,/usr/libexec/at-spi2-registryd --use-gnome-session
+7725,7291,8391,0.0,0.0,/usr/libexec/xdg-permission-store
+7727,7291,8391,0.0,0.1,/usr/libexec/gnome-shell-calendar-server
+7736,7291,8391,0.0,0.2,/usr/libexec/evolution-source-registry
+7745,7291,8391,0.0,0.2,/usr/libexec/evolution-calendar-factory
+7764,7291,8391,0.0,0.0,/usr/libexec/dconf-service
+7788,7291,8391,0.0,0.1,/usr/libexec/evolution-addressbook-factory
+7832,7291,8390,0.0,0.1,/usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+7842,7291,8390,0.0,0.0,/usr/libexec/gsd-a11y-settings
+7843,7291,8390,0.0,0.3,/usr/libexec/gsd-color
+7844,7291,8390,0.0,0.1,/usr/libexec/gsd-datetime
+7846,7291,8390,0.0,0.1,/usr/libexec/gsd-housekeeping
+7847,7291,8390,0.0,0.2,/usr/libexec/gsd-keyboard
+7849,7291,8390,0.0,0.3,/usr/libexec/gsd-media-keys
+7850,7291,8390,0.0,0.3,/usr/libexec/gsd-power
+7851,7291,8390,0.0,0.1,/usr/libexec/gsd-print-notifications
+7853,7291,8390,0.0,0.0,/usr/libexec/gsd-rfkill
+7856,7291,8390,0.0,0.0,/usr/libexec/gsd-screensaver-proxy
+7858,7291,8390,0.0,0.1,/usr/libexec/gsd-sharing
+7863,7291,8390,0.0,0.0,/usr/libexec/gsd-smartcard
+7865,7291,8390,0.0,0.0,/usr/libexec/gsd-sound
+7869,7291,8390,0.0,0.1,/usr/libexec/gsd-usb-protection
+7870,7291,8390,0.0,0.2,/usr/libexec/gsd-wacom
+7872,7291,8390,0.0,0.1,/usr/libexec/gsd-wwan
+7882,7291,8390,0.0,0.2,/usr/libexec/gsd-xsettings
+7912,7663,8389,0.0,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+7919,7663,8389,0.0,0.4,/usr/libexec/evolution-data-server/evolution-alarm-notify
+7923,7700,8389,0.0,0.0,/usr/libexec/ibus-engine-simple
+7924,7663,8389,0.0,0.1,clipit
+7928,7663,8389,0.0,0.1,/usr/lib/aarch64-linux-gnu/indicator-messages/indicator-messages-service
+7930,7663,8389,0.0,0.4,/usr/bin/python3 /usr/bin/blueman-applet
+7945,7663,8389,0.0,0.0,/usr/libexec/gsd-disk-utility-notify
+7972,1,8389,0.0,0.0,/usr/libexec/colord
+7995,7291,8389,0.0,0.0,/usr/libexec/gsd-printer
+8080,7912,8387,0.0,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+8081,7912,8387,0.0,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+8084,7912,8387,0.0,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+8085,7912,8387,0.0,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+8086,7912,8387,0.1,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+8087,7912,8387,0.0,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+8088,7912,8387,0.0,0.5,python3 /usr/share/nvpmodel_indicator/nvpmodel_indicator.py
+8091,7291,8386,0.0,0.3,/usr/bin/python3 /usr/bin/blueman-tray
+8098,7291,8385,0.0,0.0,/usr/lib/bluetooth/obexd
+8222,1,8384,0.0,0.1,/usr/sbin/cupsd -l
+8223,1,8384,0.0,0.0,/usr/sbin/cups-browsed
+8502,7388,8381,0.0,0.0,/usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+9355,7663,8369,0.0,0.0,zeitgeist-datahub
+9364,7291,8368,0.0,0.1,/usr/bin/zeitgeist-daemon
+9370,7291,8368,0.0,0.0,/usr/lib/zeitgeist/zeitgeist-fts
+9558,7291,8331,0.0,0.1,/usr/libexec/gvfsd-metadata
+9563,7663,8329,0.0,0.1,update-notifier
+9661,7291,8307,0.4,2.0,/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+11273,7291,5204,0.9,0.5,/usr/bin/nautilus --gapplication-service
+11305,7388,5202,0.0,0.0,/usr/libexec/gvfsd-recent --spawner :1.4 /org/gtk/gvfs/exec_spaw/1
+13299,2,3646,0.3,0.0,[kworker/u8:1]
+16723,2,1513,0.4,0.0,[kworker/u8:0]
+16736,2,1450,0.0,0.0,[kworker/2:1]
+17170,2,1122,0.0,0.0,[kworker/1:2]
+17178,2,1096,0.2,0.0,[kworker/u8:3]
+17789,2,882,0.0,0.0,[kworker/0:1]
+18102,2,607,0.0,0.0,[kworker/0:3]
+18310,2,466,0.0,0.0,[kworker/1:0]
+18314,2,370,0.0,0.0,[kworker/2:2]
+18402,2,327,0.0,0.0,[kworker/3:1]
+18520,2,295,0.0,0.0,[kworker/u8:2]
+18557,2,291,0.0,0.0,[kworker/0:0]
+19067,2,119,0.0,0.0,[kworker/1:1]
+19162,2,107,0.0,0.0,[kworker/0:2]
+19253,2,22,0.0,0.0,[kworker/1:3]
+19256,2,10,0.0,0.0,[kworker/2:0]
+19260,5946,9,0.0,0.0,sleep 300
+19261,5803,1,4.0,0.1,sshd: jetson [priv]
+19277,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19278,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19279,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19281,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19286,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19287,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19288,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19289,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19290,3895,1,1.0,0.0,/lib/systemd/systemd-udevd
+19292,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19294,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19295,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19306,3895,1,0.0,0.0,/lib/systemd/systemd-udevd
+19345,19261,1,0.0,0.1,sshd: jetson@notty
+19349,19345,1,0.0,0.0,"bash -c set -e RUN='/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206' cd ""$RUN"" PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python -m py_compile ""$RUN/scripts/finalize_idle_prebenchmark.py"" PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python ""$RUN/scripts/finalize_idle_prebenchmark.py"" 2>&1 | tee ""$RUN/logs/finalize_idle_prebenchmark.log"""
+19352,19349,1,58.0,0.7,/home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/scripts/finalize_idle_prebenchmark.py
+19353,19349,1,0.0,0.0,tee /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/logs/finalize_idle_prebenchmark.log
+19359,19352,0,0.0,0.0,"ps -eo pid=,ppid=,etimes=,%cpu=,%mem=,args="

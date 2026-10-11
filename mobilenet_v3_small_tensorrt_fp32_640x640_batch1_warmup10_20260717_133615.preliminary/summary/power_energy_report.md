@@ -1,0 +1,23 @@
+# Power and Energy
+
+{
+  "power_boundary": "Jetson module-level Power TOT (POM_5V_IN), not GPU-only power",
+  "monitor": "jtop/jetson-stats 4.3.2",
+  "interval_seconds": 0.5,
+  "active_sample_count": 62,
+  "idle_sample_count": 60,
+  "mean_power_tot_w": 5.215,
+  "median_power_tot_w": 5.171,
+  "min_power_tot_w": 4.024,
+  "max_power_tot_w": 6.249,
+  "p95_power_tot_w": 6.133500000000001,
+  "gross_total_energy_j": 161.11991143512728,
+  "gross_energy_per_image_j": 0.617317668333821,
+  "idle_mean_power_w": 2.717416666666667,
+  "idle_corrected_total_energy_j": 77.40037668077152,
+  "idle_corrected_energy_per_image_j": 0.29655316735927784,
+  "images_per_gross_joule": 1.619911516057952,
+  "images_per_idle_corrected_joule": 3.372076612449354,
+  "integration": "trapezoidal integration over timestamped samples with boundary extension",
+  "warmup_energy_excluded": true
+}

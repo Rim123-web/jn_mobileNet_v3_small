@@ -1,0 +1,7 @@
+numpy
+Pillow
+matplotlib
+psutil
+jetson-stats
+onnx
+onnxruntime

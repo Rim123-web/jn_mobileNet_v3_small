@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "architecture": "ResNet50",
+      "accuracy": 0.9770114942528736,
+      "macro_f1": 0.9584802193497846,
+      "engine_latency_ms": 348.0575734573306,
+      "engine_fps": 2.87308789194496,
+      "end_to_end_latency_ms": 436.3825404597701,
+      "pipeline_fps": 2.2915673916431345,
+      "wall_clock_fps": 2.2893062812792393,
+      "average_power_w": 8.56817543859649,
+      "gross_energy_per_image_j": 3.7512007954175437,
+      "idle_corrected_energy_per_image_j": 2.5127760953983587,
+      "avg_cpu_percent": 40.91008771929825,
+      "avg_gpu_percent": 77.2469298245614,
+      "max_ram_mb": 2553.8671875,
+      "max_temperature_c": 62.0,
+      "engine_size_bytes": 155154475
+    },
+    {
+      "architecture": "MobileNetV3-Small",
+      "accuracy": 0.9731800766283525,
+      "macro_f1": 0.9518572587185726,
+      "engine_latency_ms": 33.14579384171643,
+      "engine_fps": 30.169740534059137,
+      "end_to_end_latency_ms": 117.6272600421456,
+      "pipeline_fps": 8.501430702727431,
+      "wall_clock_fps": 8.471688320830646,
+      "average_power_w": 5.215,
+      "gross_energy_per_image_j": 0.617317668333821,
+      "idle_corrected_energy_per_image_j": 0.29655316735927784,
+      "avg_cpu_percent": 32.42338709677419,
+      "avg_gpu_percent": 28.01451612903226,
+      "max_ram_mb": 2461.328125,
+      "max_temperature_c": 48.0,
+      "engine_size_bytes": 9780626
+    }
+  ],
+  "accuracy_difference_mobilenet_minus_resnet50": -0.003831417624521105,
+  "macro_f1_difference_mobilenet_minus_resnet50": -0.006622960631211927,
+  "mobilenet_engine_speedup_vs_resnet50": 10.500806682121892,
+  "mobilenet_pipeline_speedup_vs_resnet50": 3.7098759275988846,
+  "gross_energy_change_percent": -83.54346509288614,
+  "idle_corrected_energy_change_percent": -88.19818574753417,
+  "reference_package": "/home/jetson/Downloads/classification_benchmark/resnet50_final/resnet50_tensorrt_fp32_640x640_batch1_warmup10_20260716_182655"
+}

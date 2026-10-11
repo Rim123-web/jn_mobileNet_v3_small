@@ -1,0 +1,5 @@
+precision,metric,value
+FP32,accuracy,0.9731800766283525
+FP32,macro_f1,0.9518572587185726
+FP16-enabled,accuracy,0.9731800766283525
+FP16-enabled,macro_f1,0.9518572587185726

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "mean": true,
+    "std": true,
+    "resize": true,
+    "fp32_config_hash": true,
+    "fp16_config_hash": true
+  },
+  "source": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615/config/preprocessing.json",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "color_order": "RGB",
+  "pixel_scaling": "divide by 255",
+  "resize_crop": "direct PIL bilinear resize to 640x640; no crop or padding",
+  "layout": "HWC to CHW, batch insertion, contiguous float32"
+}

@@ -1,0 +1,16 @@
+{
+  "fp32_fp16_prediction_agreement": 1,
+  "fp32_int8_prediction_agreement": 1,
+  "fp16_int8_prediction_agreement": 1,
+  "all_three_prediction_agreement": 1,
+  "accuracy": {
+    "fp32": 0.9731800766283525,
+    "fp16": 0.9731800766283525,
+    "int8": 0.9731800766283525
+  },
+  "macro_f1": {
+    "fp32": 0.9518572587185726,
+    "fp16": 0.9518572587185726,
+    "int8": 0.9518572587185726
+  }
+}

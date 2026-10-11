@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "idle_samples_exists": true,
+  "idle_status_exists": true,
+  "minimum_30_seconds": true,
+  "minimum_60_samples": true,
+  "nonempty_columns": true
+}

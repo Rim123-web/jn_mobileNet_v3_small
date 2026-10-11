@@ -1,0 +1,4 @@
+pid,ppid,elapsed_s,cpu,memory,command
+17114,17110,0,0.0,0.0,"bash -c set -o pipefail RUN='/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206' PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python ""$RUN/scripts/prepare_project.py"" 2>&1 | tee ""$RUN/logs/preparation.log"""
+17115,17114,0,0.0,0.7,/home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/scripts/prepare_project.py
+17116,17114,0,0.0,0.0,tee /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/logs/preparation.log

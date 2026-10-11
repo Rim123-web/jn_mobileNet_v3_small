@@ -1,0 +1,4 @@
+class_id,class_name,support,precision,recall,f1
+0,class_1_asymptomatic,155,1.0,1.0,1.0
+1,class_2_mild_symptoms,70,0.9701492537313433,0.9285714285714286,0.948905109489051
+2,class_3_symptomatic_compromised,36,0.8717948717948718,0.9444444444444444,0.9066666666666667

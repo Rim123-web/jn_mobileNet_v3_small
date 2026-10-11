@@ -1,0 +1,2 @@
+sample_count,outputs_finite,observed_class_count,prediction_collapse,sample_accuracy,onnx_agreement,fp32_agreement,fp16_agreement,minimum_cosine_similarity,maximum_abs_error
+20,True,3,False,1.0,1.0,1.0,1.0,0.9836889496230732,2.260723114013672

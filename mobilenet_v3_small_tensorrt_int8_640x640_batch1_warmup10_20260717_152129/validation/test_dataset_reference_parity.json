@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": {
+    "image_count_261": true,
+    "corrupt_zero": true,
+    "zero_byte_zero": true,
+    "class_names_match": true,
+    "current_path_order_matches_reference": true,
+    "reference_inventory_rows": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "reference_package": "/home/jetson/Downloads/classification_benchmark/resnet50_final/resnet50_tensorrt_fp32_640x640_batch1_warmup10_20260716_182655",
+  "fields": {
+    "hostname": {
+      "resnet50": "nano",
+      "mobilenet": "nano",
+      "match": true
+    },
+    "device_model": {
+      "resnet50": "NVIDIA Jetson Nano Developer Kit",
+      "mobilenet": "NVIDIA Jetson Nano Developer Kit",
+      "match": true
+    },
+    "architecture": {
+      "resnet50": "aarch64",
+      "mobilenet": "aarch64",
+      "match": true
+    },
+    "kernel": {
+      "resnet50": "4.9.253-tegra",
+      "mobilenet": "4.9.253-tegra",
+      "match": true
+    },
+    "l4t": {
+      "resnet50": "# R32 (release), REVISION: 6.1, GCID: 27863751, BOARD: t210ref, EABI: aarch64, DATE: Mon Jul 26 19:20:30 UTC 2021",
+      "mobilenet": "# R32 (release), REVISION: 6.1, GCID: 27863751, BOARD: t210ref, EABI: aarch64, DATE: Mon Jul 26 19:20:30 UTC 2021",
+      "match": true
+    },
+    "cuda": {
+      "resnet50": null,
+      "mobilenet": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2021 NVIDIA Corporation\nBuilt on Sun_Feb_28_22:34:44_PST_2021\nCuda compilation tools, release 10.2, V10.2.300\nBuild cuda_10.2_r440.TC440_70.29663091_0\n",
+      "match": false
+    },
+    "tensorrt": {
+      "resnet50": null,
+      "mobilenet": "libnvinfer8|8.0.1-1+cuda10.2\n",
+      "match": false
+    },
+    "python_executable": {
+      "resnet50": "/home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python",
+      "mobilenet": "/home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python",
+      "match": true
+    },
+    "python_version": {
+      "resnet50": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+      "mobilenet": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+      "match": true
+    },
+    "cpu_online": {
+      "resnet50": "0-3",
+      "mobilenet": "0-3",
+      "match": true
+    },
+    "cpu_governors": {
+      "resnet50": [
+        "schedutil",
+        "schedutil",
+        "schedutil",
+        "schedutil"
+      ],
+      "mobilenet": [
+        "schedutil",
+        "schedutil",
+        "schedutil",
+        "schedutil"
+      ],
+      "match": true
+    }
+  },
+  "note": "Timestamps, temperatures, free memory, and process state are expected to vary between runs."
+}

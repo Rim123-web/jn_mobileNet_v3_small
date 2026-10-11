@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "resnet50_reference": "/home/jetson/Downloads/classification_benchmark/resnet50_final/resnet50_tensorrt_fp32_640x640_batch1_warmup10_20260716_182655",
+  "current_count": 261,
+  "reference_count": 261,
+  "ordered_hash_and_path_match": true
+}

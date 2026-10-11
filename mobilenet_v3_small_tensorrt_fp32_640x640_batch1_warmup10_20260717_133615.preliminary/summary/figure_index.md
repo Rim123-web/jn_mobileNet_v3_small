@@ -1,0 +1,25 @@
+# Figure Index
+
+- `confusion_matrix_absolute.png`
+- `confusion_matrix_normalized.png`
+- `cpu_utilization_trace.png`
+- `end_to_end_latency_distribution.png`
+- `end_to_end_latency_trace.png`
+- `engine_latency_distribution.png`
+- `engine_latency_trace.png`
+- `gpu_utilization_trace.png`
+- `latency_vs_power_tot.png`
+- `mean_stage_latency.png`
+- `mean_stage_share.png`
+- `per_class_metrics.png`
+- `power_tot_trace.png`
+- `ram_usage_trace.png`
+- `resnet50_vs_mobilenet_energy_per_image.png`
+- `resnet50_vs_mobilenet_engine_fps.png`
+- `resnet50_vs_mobilenet_engine_latency.png`
+- `resnet50_vs_mobilenet_engine_size.png`
+- `resnet50_vs_mobilenet_pipeline_fps.png`
+- `resnet50_vs_mobilenet_quality.png`
+- `resnet50_vs_mobilenet_stage_breakdown.png`
+- `stacked_pipeline_breakdown.png`
+- `temperature_trace.png`

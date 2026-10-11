@@ -1,0 +1,31 @@
+{
+  "hostname": "nano",
+  "ip": "10.54.7.83 172.17.0.1",
+  "date": "2026-07-17T14:23:11+0200",
+  "device_model": "NVIDIA Jetson Nano Developer Kit",
+  "architecture": "aarch64",
+  "os_release": "NAME=\"Ubuntu\"\nVERSION=\"20.04.6 LTS (Focal Fossa)\"\nID=ubuntu\nID_LIKE=debian\nPRETTY_NAME=\"Ubuntu 20.04.6 LTS\"\nVERSION_ID=\"20.04\"\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nVERSION_CODENAME=focal\nUBUNTU_CODENAME=focal\n",
+  "kernel": "4.9.253-tegra",
+  "l4t": "# R32 (release), REVISION: 6.1, GCID: 27863751, BOARD: t210ref, EABI: aarch64, DATE: Mon Jul 26 19:20:30 UTC 2021",
+  "cuda": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2021 NVIDIA Corporation\nBuilt on Sun_Feb_28_22:34:44_PST_2021\nCuda compilation tools, release 10.2, V10.2.300\nBuild cuda_10.2_r440.TC440_70.29663091_0\n",
+  "tensorrt": "libnvinfer8|8.0.1-1+cuda10.2\n",
+  "python_executable": "/home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python",
+  "python_version": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "nvpmodel": "NVPM WARN: fan mode is not set!\nNV Power Mode: MAXN\n0\nNVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13\nNVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap\n",
+  "jetson_clocks": "SOC family:tegra210  Machine:NVIDIA Jetson Nano Developer Kit\nError: Run this script(/usr/bin/jetson_clocks) as a root user\n",
+  "cpu_online": "0-3",
+  "cpu_governors": [
+    "schedutil",
+    "schedutil",
+    "schedutil",
+    "schedutil"
+  ],
+  "cpu_frequencies": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq:1479000\n/sys/devices/system/cpu/cpu1/cpufreq/scaling_cur_freq:1479000\n/sys/devices/system/cpu/cpu2/cpufreq/scaling_cur_freq:1479000\n/sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq:1479000\n",
+  "memory": "              total        used        free      shared  buff/cache   available\nMem:          3,9Gi       1,4Gi       1,1Gi       2,0Mi       1,3Gi       2,7Gi\nSwap:         1,9Gi       251Mi       1,7Gi\n",
+  "swap": "NAME       TYPE        SIZE  USED PRIO\n/dev/zram0 partition 495,4M 62,9M    5\n/dev/zram1 partition 495,4M 62,9M    5\n/dev/zram2 partition 495,4M 62,9M    5\n/dev/zram3 partition 495,4M 62,7M    5\n",
+  "storage": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/mmcblk0p1  116G   37G   75G  33% /\n",
+  "temperatures": "/sys/class/thermal/thermal_zone0/temp:44000\n/sys/class/thermal/thermal_zone1/temp:37500\n/sys/class/thermal/thermal_zone2/temp:36000\n/sys/class/thermal/thermal_zone3/temp:34000\n/sys/class/thermal/thermal_zone4/temp:50000\n/sys/class/thermal/thermal_zone5/temp:36500\n",
+  "active_benchmark_processes": "  17114   17110       0  0.0  0.0 bash -c set -o pipefail RUN='/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206' PYTHONNOUSERSITE=1 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python \"$RUN/scripts/prepare_project.py\" 2>&1 | tee \"$RUN/logs/preparation.log\"\n  17115   17114       0  0.0  0.7 /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/scripts/prepare_project.py\n  17116   17114       0  0.0  0.0 tee /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/logs/preparation.log\n",
+  "jtop": "4.3.2",
+  "psutil": "7.2.2"
+}

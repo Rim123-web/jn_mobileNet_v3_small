@@ -1,0 +1,9 @@
+{
+  "dataset_root": "/home/jetson/Downloads/classification_jetson/test_imgs",
+  "total_images": 261,
+  "duplicate_content_groups": {},
+  "all_images_decoded": true,
+  "hidden_files": [],
+  "unsupported_files": [],
+  "zero_byte_or_corrupt_files": []
+}

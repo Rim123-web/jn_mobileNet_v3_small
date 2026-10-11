@@ -1,0 +1,41 @@
+{
+  "architecture": "MobileNetV3-Small",
+  "task": "classification",
+  "class_count": 3,
+  "class_names": [
+    "class_1_asymptomatic",
+    "class_2_mild_symptoms",
+    "class_3_symptomatic_compromised"
+  ],
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "input_dtype": "float32",
+  "source_artifact_for_engine": "exact FP32 reference ONNX",
+  "parameter_count": 1520931,
+  "checkpoint_keys": [
+    "class_names",
+    "dropout",
+    "img_size",
+    "model_name",
+    "model_state_dict",
+    "preprocessing",
+    "pretrained_weights"
+  ],
+  "fp32_reference_model": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615/model/mobilenet_v3_small_inference_only.pt",
+    "size_bytes": 6224635,
+    "modified_time": 1781371321.9148188,
+    "sha256": "07f4ccff01ea9949c1ba6ec4cfaaf998025115ab6edb1e176aeb3cea1ff7484e"
+  },
+  "packaged_model": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/model/mobilenet_v3_small_inference_only.pt",
+    "size_bytes": 6224635,
+    "modified_time": 1781371321.9148188,
+    "sha256": "07f4ccff01ea9949c1ba6ec4cfaaf998025115ab6edb1e176aeb3cea1ff7484e"
+  },
+  "copy_hash_matches": true
+}

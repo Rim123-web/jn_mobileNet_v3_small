@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": {
+    "mean": true,
+    "std": true,
+    "resize": true,
+    "fp32_config_hash": true,
+    "fp16_config_hash": true
+  }
+}

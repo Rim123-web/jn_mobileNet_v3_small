@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "onnx_sha256_match": true,
+  "dataset_inventory": "PASS",
+  "class_mapping_match": true,
+  "preprocessing_match": true,
+  "input_shape_match": true,
+  "batch_size_match": true,
+  "warmup_count_match": true,
+  "measured_image_count_match": true,
+  "timing_implementation_match": true,
+  "telemetry_implementation_match": true,
+  "monitoring_interval_match": true,
+  "limitations": "Run-time temperature and available memory naturally differ between sequential experiments."
+}

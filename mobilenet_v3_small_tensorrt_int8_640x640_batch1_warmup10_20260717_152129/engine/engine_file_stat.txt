@@ -1,0 +1,3 @@
+TensorRT Python BuilderFlag.INT8 --noTF32 IInt8EntropyCalibrator2 fresh independent validation calibration input=1x3x640x640 batch=1 workspace=1024MiB
+size_bytes=10358329
+sha256=d44725b0501dd2b90601df117af69fcdc7377d981de1fb6c3a791b1c678bb3a6

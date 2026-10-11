@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "architecture": "MobileNetV3-Small",
+  "task": "classification",
+  "classes": [
+    "class_1_asymptomatic",
+    "class_2_mild_symptoms",
+    "class_3_symptomatic_compromised"
+  ],
+  "source": {
+    "path": "/home/jetson/Downloads/classification_jetson/mobilenet_v3_small_inference_models/mobilenet_v3_small_inference_only.pt",
+    "size_bytes": 6224635,
+    "modified_time": 1781371321.9148188,
+    "sha256": "07f4ccff01ea9949c1ba6ec4cfaaf998025115ab6edb1e176aeb3cea1ff7484e"
+  },
+  "packaged": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/model/mobilenet_v3_small_inference_only.pt",
+    "size_bytes": 6224635,
+    "modified_time": 1781371321.9148188,
+    "sha256": "07f4ccff01ea9949c1ba6ec4cfaaf998025115ab6edb1e176aeb3cea1ff7484e"
+  },
+  "copy_hash_matches": true,
+  "source_model_hash_matches_fp32": true,
+  "source_model_hash_matches_fp16": true,
+  "onnx_hash_matches_fp32": true,
+  "onnx_hash_matches_fp16": true
+}

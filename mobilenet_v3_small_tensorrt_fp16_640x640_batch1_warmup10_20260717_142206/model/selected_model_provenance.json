@@ -1,0 +1,7 @@
+{
+  "architecture": "MobileNetV3-Small",
+  "selected_onnx": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615/onnx/mobilenet_v3_small_source.onnx",
+  "selection_reason": "Exact validated ONNX from the completed FP32 final package",
+  "fp32_reference_package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615",
+  "copy_hash_matches": true
+}

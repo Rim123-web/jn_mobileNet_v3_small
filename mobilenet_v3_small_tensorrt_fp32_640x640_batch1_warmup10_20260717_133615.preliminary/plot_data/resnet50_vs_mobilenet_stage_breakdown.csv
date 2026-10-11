@@ -1,0 +1,19 @@
+architecture,stage,mean_latency_ms
+ResNet50,TensorRT inference,348.0575734573306
+ResNet50,normalization/layout,38.57736436398467
+ResNet50,file decoding,26.399101938697317
+ResNet50,resize/crop,17.57150524137931
+ResNet50,H2D,2.5350948129120456
+ResNet50,color conversion,1.3525994252873563
+ResNet50,pipeline overhead,1.200906323303326
+ResNet50,postprocessing,0.45134268965517244
+ResNet50,D2H,0.23705220722033146
+MobileNetV3-Small,normalization/layout,37.247599735632186
+MobileNetV3-Small,TensorRT inference,33.14579384171643
+MobileNetV3-Small,file decoding,24.08999903065134
+MobileNetV3-Small,resize/crop,17.704024440613026
+MobileNetV3-Small,H2D,2.474059107659877
+MobileNetV3-Small,color conversion,1.2214375938697317
+MobileNetV3-Small,pipeline overhead,1.0613136633422118
+MobileNetV3-Small,postprocessing,0.46574335632183905
+MobileNetV3-Small,D2H,0.21728927233895123

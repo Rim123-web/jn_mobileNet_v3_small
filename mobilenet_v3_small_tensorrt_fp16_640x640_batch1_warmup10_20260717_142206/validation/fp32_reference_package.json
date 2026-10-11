@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "reference_package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615",
+  "validation_status": "PASS",
+  "manifest_rows_verified": 274,
+  "manifest_failures": [],
+  "onnx": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615/onnx/mobilenet_v3_small_source.onnx",
+    "size_bytes": 6123503,
+    "modified_time": 1781371748.27417,
+    "sha256": "28ef2fe9519b184d0e3c41690726c8911157a103c6ec66ccf8b86387de1d47e7"
+  },
+  "engine": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615/engine/mobilenet_v3_small_tensorrt_fp32_1x3x640x640.engine",
+    "size_bytes": 9780626,
+    "modified_time": 1784288773.534892,
+    "sha256": "00ea59585a55b02e5fa18499d1a82e7083893b088675e75f0fb249387efc2085"
+  },
+  "headline_results": {
+    "accuracy": 0.9731800766283525,
+    "macro_f1": 0.9518572587185726,
+    "engine_fps": 30.169740534059137,
+    "engine_latency_ms": 33.14579384171643,
+    "wall_clock_pipeline_fps": 8.471688320830646,
+    "gross_energy_per_image_j": 0.617317668333821
+  }
+}

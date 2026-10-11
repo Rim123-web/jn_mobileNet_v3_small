@@ -1,0 +1,11 @@
+PREPARATION PASS
+Remote Python syntax: PASS
+FP32/FP16 reference validation: PASS/PASS
+Safe archive extraction: PASS
+Validation images: 260
+Class distribution: {'class_1_asymptomatic': 155, 'class_2_mild_symptoms': 70, 'class_3_symptomatic_compromised': 35}
+Exact SHA-256 test overlap: 0
+Decoded-pixel overlap: 0
+dHash near-duplicate candidates (distance <=2): 0
+Preprocessing parity: PASS
+Note: the original outer tee opened before prepare_int8_project.py created logs/. The preparation itself completed successfully and was not rerun.

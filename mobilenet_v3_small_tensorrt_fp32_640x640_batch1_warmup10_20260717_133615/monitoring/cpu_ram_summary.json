@@ -1,0 +1,10 @@
+{
+  "avg_cpu_util_percent": 32.42338709677419,
+  "max_cpu_util_percent": 54.0,
+  "avg_gpu_util_percent": 28.01451612903226,
+  "max_gpu_util_percent": 99.7,
+  "avg_ram_used_mb": 2443.283203125,
+  "max_ram_used_mb": 2461.328125,
+  "avg_process_rss_mb": 1396.821761592742,
+  "max_process_rss_mb": 1426.58203125
+}

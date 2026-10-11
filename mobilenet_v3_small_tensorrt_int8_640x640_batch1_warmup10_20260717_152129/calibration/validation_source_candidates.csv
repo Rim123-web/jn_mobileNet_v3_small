@@ -1,0 +1,2 @@
+path,selected,image_count,class_count,class_distribution,total_size_bytes,corrupt_images,exact_test_overlap,status
+/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val,YES,260,3,"{""class_1_asymptomatic"": 155, ""class_2_mild_symptoms"": 70, ""class_3_symptomatic_compromised"": 35}",132528543,0,0,ACCEPTED

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "precision": "FP32",
+      "package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615",
+      "accuracy": 0.9731800766283525,
+      "macro_f1": 0.9518572587185726,
+      "engine_mean_latency_ms": 33.14579384171643,
+      "engine_fps": 30.169740534059137,
+      "end_to_end_mean_latency_ms": 117.6272600421456,
+      "pipeline_fps": 8.501430702727431,
+      "wall_clock_pipeline_fps": 8.471688320830646,
+      "average_power_w": 5.215,
+      "gross_energy_per_image_j": 0.617317668333821,
+      "idle_corrected_energy_per_image_j": 0.29655316735927784,
+      "max_ram_mb": 2461.328125,
+      "max_temperature_c": 48.0
+    },
+    {
+      "precision": "FP16",
+      "package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206",
+      "accuracy": 0.9731800766283525,
+      "macro_f1": 0.9518572587185726,
+      "engine_mean_latency_ms": 27.178162899967354,
+      "engine_fps": 36.79424557431,
+      "end_to_end_mean_latency_ms": 114.5635332605364,
+      "pipeline_fps": 8.728781066186523,
+      "wall_clock_pipeline_fps": 8.697467801249324,
+      "average_power_w": 5.034416666666667,
+      "gross_energy_per_image_j": 0.5806085274374806,
+      "idle_corrected_energy_per_image_j": 0.2730687976717036,
+      "max_ram_mb": 2497.8828125,
+      "max_temperature_c": 44.0
+    },
+    {
+      "precision": "INT8",
+      "package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129",
+      "accuracy": 0.9731800766283525,
+      "macro_f1": 0.9518572587185726,
+      "engine_mean_latency_ms": 33.557010811407444,
+      "engine_fps": 29.800032119072352,
+      "end_to_end_mean_latency_ms": 140.6151934137931,
+      "pipeline_fps": 7.111607044178122,
+      "wall_clock_pipeline_fps": 7.0908736887775845,
+      "average_power_w": 5.1019,
+      "gross_energy_per_image_j": 0.7115966732410636,
+      "idle_corrected_energy_per_image_j": 0.3028153213926049,
+      "max_ram_mb": 3022.19140625,
+      "max_temperature_c": 48.5
+    }
+  ],
+  "int8_engine_speedup_vs_fp32": 0.9877457210953002,
+  "int8_engine_speedup_vs_fp16": 0.8099101273564078,
+  "int8_pipeline_speedup_vs_fp32": 0.8365188511030943,
+  "int8_pipeline_speedup_vs_fp16": 0.8147308301415652,
+  "int8_gross_energy_change_vs_fp32_percent": 15.272364577172649,
+  "int8_gross_energy_change_vs_fp16_percent": 22.560492933457255,
+  "int8_accuracy_change_vs_fp32": 0.0,
+  "int8_accuracy_change_vs_fp16": 0.0,
+  "int8_macro_f1_change_vs_fp32": 0.0,
+  "int8_macro_f1_change_vs_fp16": 0.0,
+  "prediction_agreement": {
+    "fp32_fp16_prediction_agreement": 1,
+    "fp32_int8_prediction_agreement": 1,
+    "fp16_int8_prediction_agreement": 1,
+    "all_three_prediction_agreement": 1,
+    "accuracy": {
+      "fp32": 0.9731800766283525,
+      "fp16": 0.9731800766283525,
+      "int8": 0.9731800766283525
+    },
+    "macro_f1": {
+      "fp32": 0.9518572587185726,
+      "fp16": 0.9518572587185726,
+      "int8": 0.9518572587185726
+    }
+  }
+}

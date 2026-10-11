@@ -1,0 +1,6 @@
+PUBLICATION PACKAGE COMPLETION ADDENDUM: PASS
+Benchmark rerun: NO
+Raw benchmark modified: NO
+Official event records: 535
+Dedicated stability analysis: YES
+Detailed execution provenance: YES

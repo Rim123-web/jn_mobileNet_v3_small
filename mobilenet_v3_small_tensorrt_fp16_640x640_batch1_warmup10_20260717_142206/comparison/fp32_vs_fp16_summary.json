@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "precision": "FP32",
+      "accuracy": 0.9731800766283525,
+      "macro_f1": 0.9518572587185726,
+      "engine_latency_ms": 33.14579384171643,
+      "engine_fps": 30.169740534059137,
+      "end_to_end_latency_ms": 117.6272600421456,
+      "pipeline_fps": 8.501430702727431,
+      "wall_clock_fps": 8.471688320830646,
+      "average_power_w": 5.215,
+      "gross_energy_per_image_j": 0.617317668333821,
+      "idle_corrected_energy_per_image_j": 0.29655316735927784,
+      "avg_cpu_percent": 32.42338709677419,
+      "avg_gpu_percent": 28.01451612903226,
+      "max_ram_mb": 2461.328125,
+      "max_temperature_c": 48.0,
+      "engine_size_bytes": 9780626
+    },
+    {
+      "precision": "FP16-enabled",
+      "accuracy": 0.9731800766283525,
+      "macro_f1": 0.9518572587185726,
+      "engine_latency_ms": 27.178162899967354,
+      "engine_fps": 36.79424557431,
+      "end_to_end_latency_ms": 114.5635332605364,
+      "pipeline_fps": 8.728781066186523,
+      "wall_clock_fps": 8.697467801249324,
+      "average_power_w": 5.034416666666667,
+      "gross_energy_per_image_j": 0.5806085274374806,
+      "idle_corrected_energy_per_image_j": 0.2730687976717036,
+      "avg_cpu_percent": 33.05416666666667,
+      "avg_gpu_percent": 12.69,
+      "max_ram_mb": 2497.8828125,
+      "max_temperature_c": 44.0,
+      "engine_size_bytes": 6320802
+    }
+  ],
+  "prediction_agreement": 1,
+  "accuracy_difference_fp16_minus_fp32": 0.0,
+  "macro_f1_difference_fp16_minus_fp32": 0.0,
+  "fp16_engine_speedup": 1.2195744783675664,
+  "fp16_pipeline_speedup": 1.026742600323279,
+  "engine_fps_change_percent": 21.95744783675664,
+  "pipeline_fps_change_percent": 2.674260032327891,
+  "gross_energy_change_percent": -5.946556008257565,
+  "idle_corrected_energy_change_percent": -7.919109378158362,
+  "engine_size_change_percent": -35.374259275428784,
+  "reference_package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615"
+}

@@ -1,0 +1,64 @@
+INT8_ENGINE_BUILD_STARTED
+CALIBRATION_PROGRESS 1/90 /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525115526_0004_RGB_1.JPG
+CALIBRATION_PROGRESS 25/90 /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190305_0076_RGB_3.JPG
+CALIBRATION_PROGRESS 50/90 /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525180042_0275_RGB_0.JPG
+CALIBRATION_PROGRESS 75/90 /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124821_0265_RGB_0.JPG
+CALIBRATION_PROGRESS 90/90 /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525130726_0137_RGB_0.JPG
+CALIBRATION_CACHE_WRITTEN /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/calibration/mobilenet_v3_small_int8_calibration.cache 15214
+INT8_ENGINE_WRITTEN /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/engine/mobilenet_v3_small_tensorrt_int8_1x3x640x640.engine
+INT8 BUILD PASS
+{
+  "status": "PASS",
+  "builder": "TensorRT Python API",
+  "tensorrt_version": "8.0.1.6",
+  "onnx_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/onnx/mobilenet_v3_small_source.onnx",
+  "onnx_sha256": "28ef2fe9519b184d0e3c41690726c8911157a103c6ec66ccf8b86387de1d47e7",
+  "engine_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/engine/mobilenet_v3_small_tensorrt_int8_1x3x640x640.engine",
+  "engine_size_bytes": 10358329,
+  "engine_sha256": "d44725b0501dd2b90601df117af69fcdc7377d981de1fb6c3a791b1c678bb3a6",
+  "input_name": "input",
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "input_dtype": "DataType.FLOAT",
+  "output_name": "logits",
+  "output_shape": [
+    1,
+    3
+  ],
+  "output_dtype": "DataType.FLOAT",
+  "int8_builder_flag": true,
+  "tf32_disabled": true,
+  "fp16_builder_flag": false,
+  "calibration_algorithm": "IInt8EntropyCalibrator2",
+  "calibration_source": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val",
+  "calibration_manifest": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/calibration/calibration_manifest.txt",
+  "calibration_images": 90,
+  "calibration_batch_size": 1,
+  "calibration_batches": 90,
+  "test_images_used_for_calibration": false,
+  "fresh_cache": true,
+  "historical_test_fallback_cache_used": false,
+  "calibration_cache_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/calibration/mobilenet_v3_small_int8_calibration.cache",
+  "calibration_cache_size_bytes": 15214,
+  "calibration_cache_sha256": "8eb23a265e3d43b13dadd85dffc86895b5d14530d498596a9fb99549e0af9aef",
+  "build_duration_seconds": 455.13783740997314,
+  "cudart": "libcudart.so.10.2",
+  "layer_precision_summary": {
+    "inspector_available": false,
+    "int8_token_count": 0,
+    "fp16_token_count": 0,
+    "fp32_token_count": 0,
+    "interpretation": "Token counts are inspection evidence, not a guaranteed mutually exclusive layer count. TensorRT may retain higher-precision fallback layers."
+  },
+  "build_start_epoch": 1784294760.7052546,
+  "build_end_epoch": 1784295215.843092,
+  "new_engine_created": true,
+  "dynamic_shapes": false,
+  "dla_used": false,
+  "workspace_mb": 1024,
+  "fallback_behavior": "TensorRT may retain FP32 fallback; FP16 builder flag was not enabled"
+}

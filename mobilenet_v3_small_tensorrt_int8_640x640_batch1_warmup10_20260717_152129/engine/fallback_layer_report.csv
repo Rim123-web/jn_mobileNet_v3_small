@@ -1,0 +1,2 @@
+layer,int8,fp16_fallback,fp32_fallback,evidence
+NOT_INSPECTABLE,UNKNOWN,NO_BUILDER_FLAG,UNKNOWN,"Engine inspector unavailable: AttributeError(""'tensorrt.tensorrt.ICudaEngine' object has no attribute 'create_engine_inspector'"")"

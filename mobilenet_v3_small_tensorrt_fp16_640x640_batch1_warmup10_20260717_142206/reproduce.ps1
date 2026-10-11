@@ -1,0 +1,1 @@
+Write-Host 'Run on Jetson: bash /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/reproduce.sh'

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "dataset_inventory": "PASS",
+  "class_mapping_match": true,
+  "preprocessing_match": true,
+  "input_shape_match": true,
+  "batch_size_match": true,
+  "warmup_count_match": true,
+  "measured_image_count_match": true,
+  "timing_implementation": "same preserved common/benchmark protocol and CUDA-event boundaries",
+  "monitoring_interval_match": true,
+  "limitations": "Run-time temperature and available memory naturally differ between sequential experiments."
+}

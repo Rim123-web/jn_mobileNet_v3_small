@@ -1,0 +1,7 @@
+Strict FP32 build configuration
+TF32 disabled: YES
+FP16 enabled: NO
+INT8 enabled: NO
+DLA enabled: NO
+Input/output bindings: FP32
+TensorRT 8.0.1 detailed layer inspector: unavailable in this environment.

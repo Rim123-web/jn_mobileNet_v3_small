@@ -1,0 +1,11 @@
+TensorRT FP16-enabled build configuration
+FP16 builder flag enabled: YES
+TF32 enabled: NO
+INT8 enabled: NO
+Calibration used: NO
+DLA enabled: NO
+Input/output bindings: FP32 (preserves FP32 host preprocessing protocol)
+Layer inspection basis: TensorRT 8.0.1 EngineInspector unavailable: AttributeError("'tensorrt.tensorrt.ICudaEngine' object has no attribute 'create_engine_inspector'")
+Inspector rows: 1
+Explicit FP32 fallback rows: 0
+Do not interpret FP32 bindings as proof that internal execution is FP32.

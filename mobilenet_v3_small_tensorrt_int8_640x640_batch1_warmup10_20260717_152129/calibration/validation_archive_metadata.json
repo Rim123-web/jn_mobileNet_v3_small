@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "archive": {
+    "path": "/home/jetson/Downloads/val_mobilenet.zip",
+    "size_bytes": 132639965,
+    "modified_time": 1784293077.2821684,
+    "sha256": "fce132c3a7172452a18b068c9630591517bbe1de93f140bee580669df4323a15"
+  },
+  "format": "ZIP",
+  "entry_count": 260,
+  "file_count": 260,
+  "uncompressed_size_bytes": 132528543,
+  "unsafe_entry_count": 0,
+  "duplicate_entry_count": 0,
+  "extracted_root": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452",
+  "class_folder_root": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val",
+  "archive_unchanged": true
+}

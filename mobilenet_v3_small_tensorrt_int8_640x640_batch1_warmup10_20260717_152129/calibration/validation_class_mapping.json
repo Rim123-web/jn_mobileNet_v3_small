@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "mapping_basis": "exact class-folder names matched to validated FP32/FP16 class mapping",
+  "classes": {
+    "0": "class_1_asymptomatic",
+    "1": "class_2_mild_symptoms",
+    "2": "class_3_symptomatic_compromised"
+  },
+  "all_classes_represented": true,
+  "ambiguous": false
+}

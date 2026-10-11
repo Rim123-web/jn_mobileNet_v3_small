@@ -1,0 +1,7 @@
+source,raw_millidegree_c
+/sys/devices/virtual/thermal/thermal_zone0/temp,47500
+/sys/devices/virtual/thermal/thermal_zone1/temp,41000
+/sys/devices/virtual/thermal/thermal_zone2/temp,39500
+/sys/devices/virtual/thermal/thermal_zone3/temp,37500
+/sys/devices/virtual/thermal/thermal_zone4/temp,50000
+/sys/devices/virtual/thermal/thermal_zone5/temp,40250

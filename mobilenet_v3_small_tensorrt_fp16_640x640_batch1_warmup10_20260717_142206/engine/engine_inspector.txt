@@ -1,0 +1,4 @@
+{
+  "status": "NOT_INSPECTABLE",
+  "error": "AttributeError(\"'tensorrt.tensorrt.ICudaEngine' object has no attribute 'create_engine_inspector'\")"
+}

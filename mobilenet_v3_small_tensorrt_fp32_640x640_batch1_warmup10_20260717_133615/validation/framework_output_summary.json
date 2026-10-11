@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sample_count": 20,
+  "sampling": "20 evenly spaced deterministic indices over the sorted 261-image list",
+  "all_top1_agree": true,
+  "max_pytorch_tensorrt_abs_error": 7.05718994140625e-05,
+  "mean_pytorch_tensorrt_abs_error": 1.4255444239097414e-05,
+  "tolerance": 0.001,
+  "duration_seconds": 46.5401873588562
+}

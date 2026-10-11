@@ -1,0 +1,2 @@
+model,precision,images,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,engine_latency_mean_ms,end_to_end_latency_mean_ms,engine_fps,transfer_inclusive_fps,pipeline_fps,wall_clock_fps,avg_power_tot_w,gross_energy_per_image_j,idle_corrected_energy_per_image_j
+MobileNetV3-Small,TensorRT FP32 strict,261,0.9731800766283525,0.9473147085087383,0.9576719576719577,0.9518572587185726,0.9734228262997455,33.14579384171643,117.6272600421456,30.169740534059137,27.904010699660564,8.501430702727431,8.471688320830646,5.215,0.617317668333821,0.29655316735927784

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "calibrator_class": "IInt8EntropyCalibrator2",
+  "source_archive": {
+    "path": "/home/jetson/Downloads/val_mobilenet.zip",
+    "size_bytes": 132639965,
+    "modified_time": 1784293077.2821684,
+    "sha256": "fce132c3a7172452a18b068c9630591517bbe1de93f140bee580669df4323a15"
+  },
+  "extracted_source": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val",
+  "calibration_manifest": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/calibration/calibration_manifest.txt",
+  "calibration_manifest_sha256": "f129363f9d4eb897a96abcd88831a172e32c4b2e92aac5ced684af171a5da645",
+  "calibration_images": 90,
+  "calibration_batch_size": 1,
+  "calibration_batches": 90,
+  "partial_final_batch": false,
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "input_dtype": "float32",
+  "augmentation": false,
+  "test_images_used": false,
+  "onnx_sha256": "28ef2fe9519b184d0e3c41690726c8911157a103c6ec66ccf8b86387de1d47e7",
+  "preprocessing_sha256": "e18a89771dcb3ff80d87ee0451376fc4665ee52d7b1710feda0bc330bcd7e369",
+  "seed": 42,
+  "fresh_cache": true,
+  "historical_cache_used": false
+}

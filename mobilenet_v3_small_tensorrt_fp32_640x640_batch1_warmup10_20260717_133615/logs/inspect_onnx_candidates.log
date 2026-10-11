@@ -1,0 +1,25 @@
+{
+  "path": "/home/jetson/Downloads/classification_jetson/mobilenet_v3_small_fp32_core4_benchmark/exports/mobilenet_v3_small_inference_fp32_trt_compatible.onnx",
+  "filename": "mobilenet_v3_small_inference_fp32_trt_compatible.onnx",
+  "size_bytes": 6123503,
+  "modified_time": 1781371748.27417,
+  "sha256": "28ef2fe9519b184d0e3c41690726c8911157a103c6ec66ccf8b86387de1d47e7",
+  "onnx_checker": "PASS",
+  "checker_error": "",
+  "opset": "[12]",
+  "input_name": "input",
+  "input_shape": "[1, 3, 640, 640]",
+  "input_dtype": 1,
+  "output_name": "logits",
+  "output_shape": "[1, 3]",
+  "output_dtype": 1,
+  "class_count": 3,
+  "dynamic": false,
+  "embedded_preprocessing": false,
+  "embedded_softmax": false,
+  "hardswish_nodes": 0,
+  "node_count": 274,
+  "selected": true,
+  "historical_reference": "executed FP32 compatible export"
+}
+ONNX CANDIDATE INSPECTION PASS

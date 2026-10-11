@@ -1,0 +1,21 @@
+{
+  "selected_validation_folder": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val",
+  "status": "PASS",
+  "checks": {
+    "selected_path_exists": true,
+    "image_count": true,
+    "same_three_classes": true,
+    "corrupt_zero": true,
+    "zero_byte_zero": true,
+    "duplicate_hashes_zero": true,
+    "exact_test_overlap_zero": true,
+    "decoded_pixel_overlap_zero": true,
+    "near_duplicate_candidates_reported": true
+  },
+  "class_distribution": {
+    "class_1_asymptomatic": 155,
+    "class_2_mild_symptoms": 70,
+    "class_3_symptomatic_compromised": 35
+  },
+  "image_count": 260
+}

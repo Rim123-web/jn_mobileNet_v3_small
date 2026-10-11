@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "fp32_final_validation": true,
+    "fp16_final_validation": true,
+    "source_model_expected_hash": true,
+    "fp32_model_expected_hash": true,
+    "fp16_model_expected_hash": true,
+    "fp32_onnx_expected_hash": true,
+    "fp16_onnx_expected_hash": true,
+    "dataset_inventory_fp32_fp16": true,
+    "image_order_fp32_fp16": true,
+    "class_mapping_fp32_fp16": true,
+    "preprocessing_fp32_fp16": true
+  }
+}

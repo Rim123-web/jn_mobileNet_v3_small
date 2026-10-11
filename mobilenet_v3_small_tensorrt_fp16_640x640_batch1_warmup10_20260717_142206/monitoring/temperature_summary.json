@@ -1,0 +1,6 @@
+{
+  "avg_max_sensor_temperature_c": 42.291666666666664,
+  "max_sensor_temperature_c": 44.0,
+  "throttling_event_count": 0,
+  "throttling_telemetry_note": "No explicit throttling flag was exposed by the preserved jtop monitor schema; no throttling event was observed or inferred."
+}

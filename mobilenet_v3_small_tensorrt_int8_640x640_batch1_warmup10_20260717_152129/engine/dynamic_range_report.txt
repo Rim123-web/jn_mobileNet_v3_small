@@ -1,0 +1,2 @@
+TensorRT 8.0.1 Python API does not expose a complete post-build per-layer dynamic-range report in this environment.
+Fresh IInt8EntropyCalibrator2 cache generation and BuilderFlag.INT8 are preserved as evidence.

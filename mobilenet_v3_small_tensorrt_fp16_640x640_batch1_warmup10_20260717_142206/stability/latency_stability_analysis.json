@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "source": "raw/per_image_timings.csv from the single official measured pass",
+  "measured_rows": 261,
+  "engine_latency": {
+    "count": 261,
+    "mean_ms": 27.178162899967354,
+    "median_ms": 27.169530868530273,
+    "std_ms": 0.07677084818591065,
+    "minimum_ms": 27.059999465942383,
+    "maximum_ms": 27.929792404174805,
+    "p90_ms": 27.256093978881836,
+    "p95_ms": 27.281978607177734,
+    "p99_ms": 27.41190605163574,
+    "coefficient_of_variation_percent": 0.28247254411004674
+  },
+  "end_to_end_latency": {
+    "count": 261,
+    "mean_ms": 114.5635332605364,
+    "median_ms": 105.547137,
+    "std_ms": 48.41676704737033,
+    "minimum_ms": 79.79413,
+    "maximum_ms": 589.65765,
+    "p90_ms": 161.099913,
+    "p95_ms": 197.767128,
+    "p99_ms": 255.01284339999972,
+    "coefficient_of_variation_percent": 42.26193594890496
+  },
+  "first_to_last_quartile_engine_mean_change_percent": -0.008824963688180976,
+  "first_to_last_quartile_pipeline_mean_change_percent": -28.34312858295993,
+  "quartiles": [
+    {
+      "quartile": 1,
+      "first_measured_index": 1,
+      "last_measured_index": 65,
+      "count": 65,
+      "mean_engine_latency_ms": 27.180181884765624,
+      "median_engine_latency_ms": 27.16588592529297,
+      "p95_engine_latency_ms": 27.320449066162112,
+      "mean_end_to_end_latency_ms": 116.32952764615385,
+      "median_end_to_end_latency_ms": 109.042008,
+      "p95_end_to_end_latency_ms": 154.2946755999999
+    },
+    {
+      "quartile": 2,
+      "first_measured_index": 66,
+      "last_measured_index": 130,
+      "count": 65,
+      "mean_engine_latency_ms": 27.189668332613433,
+      "median_engine_latency_ms": 27.178749084472656,
+      "p95_engine_latency_ms": 27.272479629516603,
+      "mean_end_to_end_latency_ms": 153.2503132,
+      "median_end_to_end_latency_ms": 131.787157,
+      "p95_end_to_end_latency_ms": 232.69811299999992
+    },
+    {
+      "quartile": 3,
+      "first_measured_index": 131,
+      "last_measured_index": 195,
+      "count": 65,
+      "mean_engine_latency_ms": 27.16502397977389,
+      "median_engine_latency_ms": 27.16229248046875,
+      "p95_engine_latency_ms": 27.25470733642578,
+      "mean_end_to_end_latency_ms": 105.79627573846155,
+      "median_end_to_end_latency_ms": 83.495152,
+      "p95_end_to_end_latency_ms": 162.5618642
+    },
+    {
+      "quartile": 4,
+      "first_measured_index": 196,
+      "last_measured_index": 261,
+      "count": 66,
+      "mean_engine_latency_ms": 27.17778324358391,
+      "median_engine_latency_ms": 27.174402236938477,
+      "p95_engine_latency_ms": 27.308945178985596,
+      "mean_end_to_end_latency_ms": 83.35810004545455,
+      "median_end_to_end_latency_ms": 83.437962,
+      "p95_end_to_end_latency_ms": 85.15942025000001
+    }
+  ],
+  "interpretation": "Descriptive run-order stability only; this was one full dataset pass, not repeated trials."
+}

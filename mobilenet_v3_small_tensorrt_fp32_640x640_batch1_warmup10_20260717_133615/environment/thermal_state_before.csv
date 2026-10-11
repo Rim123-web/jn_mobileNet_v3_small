@@ -1,0 +1,7 @@
+sensor,temperature_c
+/sys/class/thermal/thermal_zone0/temp,44.5
+/sys/class/thermal/thermal_zone1/temp,38.5
+/sys/class/thermal/thermal_zone2/temp,37.0
+/sys/class/thermal/thermal_zone3/temp,35.0
+/sys/class/thermal/thermal_zone4/temp,50.0
+/sys/class/thermal/thermal_zone5/temp,38.25

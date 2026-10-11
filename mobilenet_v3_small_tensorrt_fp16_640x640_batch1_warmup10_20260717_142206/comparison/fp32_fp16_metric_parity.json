@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "prediction_agreement": 1,
+  "agreement_count": 261,
+  "total_images": 261,
+  "accuracy_difference_fp16_minus_fp32": 0.0,
+  "macro_f1_difference_fp16_minus_fp32": 0.0
+}

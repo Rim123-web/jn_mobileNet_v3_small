@@ -1,0 +1,16 @@
+{
+  "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206",
+  "status": "PASS",
+  "model": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/model/mobilenet_v3_small_inference_only.pt",
+    "size_bytes": 6224635,
+    "modified_time": 1781371321.9148188,
+    "sha256": "07f4ccff01ea9949c1ba6ec4cfaaf998025115ab6edb1e176aeb3cea1ff7484e"
+  },
+  "onnx": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_source.onnx",
+    "size_bytes": 6123503,
+    "modified_time": 1781371748.27417,
+    "sha256": "28ef2fe9519b184d0e3c41690726c8911157a103c6ec66ccf8b86387de1d47e7"
+  }
+}

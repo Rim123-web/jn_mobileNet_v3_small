@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "sample_count": 20,
+  "sampling": "20 evenly spaced deterministic indices over the sorted 261-image list",
+  "output_shape": [
+    1,
+    3
+  ],
+  "outputs_finite": true,
+  "observed_predicted_classes": [
+    0,
+    1,
+    2
+  ],
+  "prediction_collapse": false,
+  "sample_accuracy": 1.0,
+  "int8_onnx_top1_agreement": 1.0,
+  "int8_fp32_top1_agreement": 1.0,
+  "int8_fp16_top1_agreement": 1.0,
+  "minimum_onnx_int8_cosine_similarity": 0.9836889496230732,
+  "maximum_onnx_int8_abs_error": 2.260723114013672,
+  "duration_seconds": 16.853423357009888,
+  "validation_process_releases_context_on_exit": true
+}

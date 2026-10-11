@@ -1,0 +1,902 @@
+[
+  {
+    "calibration_index": 1,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525115526_0004_RGB_1.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525115526_0004_RGB_1.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "728ad7ea560ab6004114fe4dcef141fcce2497549c9d79fdffa2a700a85a00b3",
+    "width": 874,
+    "height": 898
+  },
+  {
+    "calibration_index": 2,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525115611_0018_RGB_8.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525115611_0018_RGB_8.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "236731111495edd57b5ade90f578e6020086aa899bd08c9e2fc8a116d3ab21c9",
+    "width": 871,
+    "height": 971
+  },
+  {
+    "calibration_index": 3,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525115731_0043_RGB_9.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525115731_0043_RGB_9.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "f86102e1a310eec9acd259019d7fe2d00d66ce2d6446697b3868b0f79a39ac8c",
+    "width": 890,
+    "height": 897
+  },
+  {
+    "calibration_index": 4,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525115800_0052_RGB_13.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525115800_0052_RGB_13.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "acd9839a36011a012b281a61f378e81a7b9757e988d65e05462c1f721807437d",
+    "width": 808,
+    "height": 848
+  },
+  {
+    "calibration_index": 5,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525115907_0073_RGB_10.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525115907_0073_RGB_10.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "8c9c69090f33e843df2537e384e022575bedacaf53730b443f6131850b6f1f17",
+    "width": 891,
+    "height": 822
+  },
+  {
+    "calibration_index": 6,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525115955_0088_RGB_2.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525115955_0088_RGB_2.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "6a51a07057927275a30738ca6a52ddd926b803580a6d64a154982ecf055912f1",
+    "width": 971,
+    "height": 916
+  },
+  {
+    "calibration_index": 7,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525121135_0012_RGB_9.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525121135_0012_RGB_9.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "dfdcc1ec0582248f6cafe116aa17f9c25571869c6ea0cbbf759931a224d995f9",
+    "width": 809,
+    "height": 858
+  },
+  {
+    "calibration_index": 8,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525121203_0020_RGB_1.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525121203_0020_RGB_1.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "583d7a437bc316670c97e822742beb9c6c4494704e5626e5c0a0b2a502929027",
+    "width": 915,
+    "height": 874
+  },
+  {
+    "calibration_index": 9,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525121254_0035_RGB_8.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525121254_0035_RGB_8.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "8fcd460cb4fbfaed123a9b068359f746e53fc78668f48983bc6658cd210b2191",
+    "width": 676,
+    "height": 817
+  },
+  {
+    "calibration_index": 10,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525121421_0060_RGB_9.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525121421_0060_RGB_9.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "77021254f5c05ed4976ee173962e09e102c15660e7c990b1dfef2e97a62b419c",
+    "width": 802,
+    "height": 843
+  },
+  {
+    "calibration_index": 11,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525121459_0071_RGB_11.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525121459_0071_RGB_11.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "5d2d079e5c1f31a198cb943bba5cf6d25f9c794c0bbb4abda0b102db7e280a79",
+    "width": 796,
+    "height": 751
+  },
+  {
+    "calibration_index": 12,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525121533_0081_RGB_0.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525121533_0081_RGB_0.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "874787a090726bc6e2dad2f7a916ab5357cab5a7ef10a96241094221aa2a4a62",
+    "width": 784,
+    "height": 804
+  },
+  {
+    "calibration_index": 13,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525122849_0031_RGB_4.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525122849_0031_RGB_4.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "1201b486ac2e680b889cb54169e445708d10a7cb7b73c777d9430e067dfed74c",
+    "width": 957,
+    "height": 1021
+  },
+  {
+    "calibration_index": 14,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525122935_0054_RGB_2.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525122935_0054_RGB_2.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "11ad64eea16a5f8d25e9b0a6f4cb3141a11bb0af2e2c844aa7d9f8a825b49a76",
+    "width": 980,
+    "height": 1083
+  },
+  {
+    "calibration_index": 15,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525125055_0342_RGB_2.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525125055_0342_RGB_2.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "06096ce828d15f2186af21009bdbcc92dc91750f83e33120967b9034f80a6787",
+    "width": 864,
+    "height": 891
+  },
+  {
+    "calibration_index": 16,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525175404_0133_RGB_0.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525175404_0133_RGB_0.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "fe0b7c6b84270f4f3f9a183fbc4e037b9a7f11cc0a53fa980ae01bed5ed73ecf",
+    "width": 1875,
+    "height": 1666
+  },
+  {
+    "calibration_index": 17,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525180432_0357_RGB_0.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525180432_0357_RGB_0.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "d5a65fb2ddd7f21eafb9450b31877bd03cd90b14aa11a5bbd6f6d9e06c848ebb",
+    "width": 1178,
+    "height": 1080
+  },
+  {
+    "calibration_index": 18,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525181409_0051_RGB_0.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525181409_0051_RGB_0.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "0794e151a034dedaaf604481d5c4512e1e4d903e0b288aacd12c4ee7001fa814",
+    "width": 1744,
+    "height": 1992
+  },
+  {
+    "calibration_index": 19,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525182005_0178_RGB_1.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525182005_0178_RGB_1.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "00af29f8ac9be532ea7fb164a4f9b1db25ee4baab6071593c6a72c561e568404",
+    "width": 1728,
+    "height": 1852
+  },
+  {
+    "calibration_index": 20,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525182437_0275_RGB_0.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525182437_0275_RGB_0.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "0f46a8f956dc3c312969b3f6d1b28ba66e9f83c5e3837ba6f924731e239671c0",
+    "width": 2367,
+    "height": 2173
+  },
+  {
+    "calibration_index": 21,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190105_0016_RGB_4.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190105_0016_RGB_4.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "908ccc02599ebeb06cebe4f256de61e0f25828df327ffa6e738d0f71036ca721",
+    "width": 1388,
+    "height": 883
+  },
+  {
+    "calibration_index": 22,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190129_0028_RGB_5.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190129_0028_RGB_5.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "484a3a21ac251782315a81cbac9fd3aedeff74c4e9871de0996d4b4fe1cac713",
+    "width": 1108,
+    "height": 1056
+  },
+  {
+    "calibration_index": 23,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190151_0039_RGB_2.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190151_0039_RGB_2.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "b9e83d003e0340c59ac193bd9b899983307df15c5f7b6aa61a1112d1c69f4b77",
+    "width": 1198,
+    "height": 1048
+  },
+  {
+    "calibration_index": 24,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190229_0058_RGB_0.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190229_0058_RGB_0.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "bce8d1d889eade75fcf681a67a6a1d90600eac2b8e81cebe06fcf6af4309519e",
+    "width": 1323,
+    "height": 1133
+  },
+  {
+    "calibration_index": 25,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190305_0076_RGB_3.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190305_0076_RGB_3.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "74d8a9fd9f123fe11cb2c178e891c116cf4eb8a57393c888a4528e629b97277c",
+    "width": 1057,
+    "height": 1102
+  },
+  {
+    "calibration_index": 26,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190321_0084_RGB_1.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190321_0084_RGB_1.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "09af2f558dfede4da2beab862fa565361df1e4375ba7a6b68fe6ff4deded8133",
+    "width": 1022,
+    "height": 830
+  },
+  {
+    "calibration_index": 27,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190403_0105_RGB_1.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190403_0105_RGB_1.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "2978461436e53ac5e281d4b07b13b1df50e573d29ef4ccfadc9fb40b4724989d",
+    "width": 1434,
+    "height": 1249
+  },
+  {
+    "calibration_index": 28,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190505_0136_RGB_0.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190505_0136_RGB_0.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "1a4824ccfbf7b08ba9795bf0316458312b22e79be0184e26386729cd0788af15",
+    "width": 1243,
+    "height": 1031
+  },
+  {
+    "calibration_index": 29,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190643_0185_RGB_5.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190643_0185_RGB_5.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "2185687db75de7694f5b8e975e463c3673a6d0db158086b8c569962e96d96601",
+    "width": 1140,
+    "height": 1084
+  },
+  {
+    "calibration_index": 30,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_1_asymptomatic/DJI_20240525190745_0216_RGB_1.JPG",
+    "relative_path": "class_1_asymptomatic/DJI_20240525190745_0216_RGB_1.JPG",
+    "class_id": 0,
+    "class_name": "class_1_asymptomatic",
+    "sha256": "3448b21879f381ae3198959ede5a14202d4250d5fca2baa7ffc90f4ea332b96b",
+    "width": 1184,
+    "height": 1027
+  },
+  {
+    "calibration_index": 31,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121216_0024_RGB_2.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121216_0024_RGB_2.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "4b5bd3631cd284fc162a9c01446a1e513485a503190d1c19622d7a763f7bdd7b",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 32,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121322_0043_RGB_8.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121322_0043_RGB_8.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "4ef42feb5b8610dc8d1a26e057d5acd88a1e27424f1be42aa4351d1d08b11c2a",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 33,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121353_0052_RGB_5.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121353_0052_RGB_5.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "5cbe6c5a5982a6a8dc1089d00d8a7c391b28a59ecf06f668b72ca5ebca6f9176",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 34,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121356_0053_RGB_2.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121356_0053_RGB_2.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "a1ad10d41828c0e6ba83958840664d1cbf524816cbc52df8fd8c6fb94ffc5ddf",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 35,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121410_0057_RGB_3.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121410_0057_RGB_3.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "4444fffa0145bd4216f90311ec58d3a6287e2a6c6f7c40a37b4b3629e60a91c7",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 36,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121424_0061_RGB_4.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121424_0061_RGB_4.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "6cd103cbccfb21711afda70c003c19dfccb5842e16ec09e942e2bef8c7207886",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 37,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121554_0087_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121554_0087_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "d5f9b7651860ed48c83cf2e0e33e07171b0b4bdf8fcf3cac6e46e57a3d69fe19",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 38,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121604_0090_RGB_3.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121604_0090_RGB_3.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "b4554fdb7657275f5539cdf6924abba82e28132579c85d1a3398817416e119bd",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 39,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121621_0095_RGB_4.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121621_0095_RGB_4.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "362391a8173edb766fdfd129139bc5cce142430db9e20536586acd3bd9a34525",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 40,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525121625_0096_RGB_8.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525121625_0096_RGB_8.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "708e5c7ec7cf3c7266d7b4547877d5125a3aa1dd6e176caa06b13dd1df0e8fd0",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 41,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525122827_0020_RGB_3.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525122827_0020_RGB_3.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "63d342a4a7ad8be3a3c6a1988b8b16c847a6089a73a372bee51bc97cebb195df",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 42,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525122839_0026_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525122839_0026_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "9b4a5b944162cb16e5b50869f1da51548df450bd4b2bffcc275c06cff7402ca5",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 43,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525122903_0038_RGB_5.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525122903_0038_RGB_5.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "e8ef2db58de86d4e9643d56b62216247448daff677155a94a909d6edba741488",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 44,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525122935_0054_RGB_4.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525122935_0054_RGB_4.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "8033aed7f77651e7ac966d7a45c43fb946cc543c91e1d3bd0565eb30a69bbe7e",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 45,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525122951_0062_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525122951_0062_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "50a67e59e46853e779bd090b3dc8f3304762b73e4e77c51cd8880e6a606903c1",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 46,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525125245_0397_RGB_2.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525125245_0397_RGB_2.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "3dd109d70e5016616f8ac3afc4fc3443762979b02b77e24b39f06964e9a114ff",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 47,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525125709_0529_RGB_1.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525125709_0529_RGB_1.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "71977a59a2f1da3f2f31a3078c25cc50250c24238211fd2e4452a5c64691d003",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 48,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525130412_0040_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525130412_0040_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "6ac591d0348d2123c75bd8fcf48e4cb338a515e351856f646fdb88573957da7c",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 49,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525175449_0149_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525175449_0149_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "676104e34b9e7668b46ac7a9d4aa4da07e777f8059ba9b2fec2a89997804be67",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 50,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525180042_0275_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525180042_0275_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "192d2b6ebcdb3bceea3f250793674ad27696da595f306c5dde815951fbea4702",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 51,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525180720_0417_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525180720_0417_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "97678c5adb73064a5037a7faf8155907401e08dc264a00dae3fae8a71ca0b8ac",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 52,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525181542_0084_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525181542_0084_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "3c5986cb43f16df8dcb3b221b3fae1977384457577d60ff51d287d909965a0e6",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 53,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525181559_0090_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525181559_0090_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "5300e39940b5aa275c412919270262bfed8a44c7cc71f78197c36367128b1e3b",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 54,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525190515_0141_RGB_5.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525190515_0141_RGB_5.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "f97651088de973517971ecde99c7eef42af5ee9bbe8ca855a5a9d0196d176a3d",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 55,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525190537_0152_RGB_1.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525190537_0152_RGB_1.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "c1eb3fa3e2c52482605af79f7e911a4b03f109819548e5b932308ea559e2d03c",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 56,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525190623_0175_RGB_0.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525190623_0175_RGB_0.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "1bdcf1462d24f3d8601581aea11e6356c611e41651783aace3dd19c1c80e9a48",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 57,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525190635_0181_RGB_5.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525190635_0181_RGB_5.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "48325456b55432c7664a0524027f82952275d263e2d53d1a9e123811de85d41f",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 58,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525190653_0190_RGB_5.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525190653_0190_RGB_5.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "fdf4110759f7f894e898a8c53e8709d5bca4fa19947029a47da2d0f342a49efd",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 59,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525190723_0205_RGB_2.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525190723_0205_RGB_2.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "9016ea94b77535f19650671e11c352b616c05cca538db67f3e07d2543c97cc50",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 60,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_2_mild_symptoms/DJI_20240525190743_0215_RGB_2.JPG",
+    "relative_path": "class_2_mild_symptoms/DJI_20240525190743_0215_RGB_2.JPG",
+    "class_id": 1,
+    "class_name": "class_2_mild_symptoms",
+    "sha256": "f8ff16b9f83c818aadd778d1a0ce4fcf975ff87669a1df2254301dbd959e9c36",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 61,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525121438_0065_RGB_1.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525121438_0065_RGB_1.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "893d84d67b6f7943db1331f3907bed71486fa45623fa0563f955579123138266",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 62,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525122757_0005_RGB_2.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525122757_0005_RGB_2.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "5429b3714483ed29cf10790556211fa2517ca55cafb330e0c19cc3cef6123de3",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 63,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525122759_0006_RGB_6.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525122759_0006_RGB_6.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "dcbf4a2793f2a93e8a6fb414091070e7f3a409e40cc601f256b0c897ddf427d1",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 64,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525122905_0039_RGB_4.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525122905_0039_RGB_4.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "f28882f3875c184282a58a9336da4f82a3a3c531ad8ea214ee6b5146bae82b70",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 65,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525122915_0044_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525122915_0044_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "2828f77b26e8a6eb58131d1e7f9c49c153a68e706b3d5590480a1621b36b19a3",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 66,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525122917_0045_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525122917_0045_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "a1faac26739de13e6c64984973e9fa7ca75dd0c8b1a0f218f57310f6ab0b217e",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 67,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525122919_0046_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525122919_0046_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "743f1f06c798aa9da600a77bf1d4b6b7aacb90fdac796b36cdd47152ad05e755",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 68,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525122923_0048_RGB_3.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525122923_0048_RGB_3.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "b5ba204159556f3e375df53eb172b9f12acb14dc9b561bc1135c8c7c19edc5a5",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 69,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124017_0023_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124017_0023_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "b04e0818bb54a1d4d2dfe889b66917d5e0f6f7125c724f8d541c6179524bfdf3",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 70,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124259_0104_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124259_0104_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "f3fafe2425a4850df6d680fd4573fbad2990ce7785c000610472375d3da7a3b2",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 71,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124341_0125_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124341_0125_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "94207ef120320cd451a8a89662e32aa53b6c653ad7f58bf39c03adbeed07caaf",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 72,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124401_0135_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124401_0135_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "a941aa5c8832d7b4069b22960503462a7eadbd3bbb0b6bf7b68fd23360bec44f",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 73,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124657_0223_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124657_0223_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "fc3e3dce4eb51586640de189d8efb20eba8ba15798bbf6c6272b76a8e81fba99",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 74,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124803_0256_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124803_0256_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "9bf4a30210d3baaf18d24fbd47efffcfe75732822a7dae51d3336a4cdcee9b8d",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 75,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124821_0265_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124821_0265_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "9f3e3a152acdbe26c5368fae7c647aa261d2c7b37ecf8627d42cd87c340dd090",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 76,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124927_0298_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124927_0298_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "3c5a95e748d8fbb9b6ae38616eb7c8fdfcb924886daef595817158e88a2c997c",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 77,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124953_0311_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124953_0311_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "1f5ac711cabfc6663226de7e6213a00ba7f4bb27f17d4cc6092eb66d9b309f4a",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 78,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525124955_0312_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525124955_0312_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "abab4992521fa59c6b3e0f49d6c70f7925c4066296f2b724fa6e65e0f09ba5e5",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 79,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125105_0347_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125105_0347_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "ba9fd565ff16331c5ef06b8bbdcd6542be53a00983c737a9e1f9205a183b9d92",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 80,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125153_0371_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125153_0371_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "4a5c2df1f3acae3a4e031874f7274a7c75c63ff74b978aaf69a8f41f455cd087",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 81,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125417_0443_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125417_0443_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "10248050ed539bf1be54c28d0467bb89c01f2b62bacf5cf86252530ea809cff2",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 82,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125617_0503_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125617_0503_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "6736b9a367e2856703086c13f8b0b87f4b6e0709f3c3d159ff238353cd9f62f6",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 83,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125625_0507_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125625_0507_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "ee782cdc99e6b6788c79d51ce303608eafe515d6acc7c25c9cef064ef6989224",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 84,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125635_0512_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125635_0512_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "042ec5365a7689de2ccdf0209e9af1dd9450fa8e73d96f6ca132b6b22e91c46f",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 85,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125647_0518_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125647_0518_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "1305bae402e0e85fa5dda04d112e8ad049c42dc1f4e86685a1893bafecd4c43a",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 86,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525125717_0533_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525125717_0533_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "9f4266a6bf2045ace1c772ee3d98a4baf4dce1ab9aa2dd86b60768271062c460",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 87,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525130302_0005_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525130302_0005_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "88a46fe76ce2d8f4b35085e620258befecbcd0e6220aa3df0772ed20c22d5c71",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 88,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525130506_0067_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525130506_0067_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "218b424e9ad526dfdb6c8e3a5366bc427ce61a13f180639d8f5de4fd0fae9581",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 89,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525130510_0069_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525130510_0069_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "e427153700d7c1ece1b9d36f6c14a5058f1b58ca607e05f0160de8151ce90100",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "calibration_index": 90,
+    "absolute_path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val/class_3_symptomatic_compromised/DJI_20240525130726_0137_RGB_0.JPG",
+    "relative_path": "class_3_symptomatic_compromised/DJI_20240525130726_0137_RGB_0.JPG",
+    "class_id": 2,
+    "class_name": "class_3_symptomatic_compromised",
+    "sha256": "786c33f05964c8481e5e94980397d4c6a978ea88d957d207abd0c0a758028405",
+    "width": 640,
+    "height": 640
+  }
+]

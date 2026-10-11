@@ -1,0 +1,5 @@
+architecture,metric,value
+ResNet50,accuracy,0.9770114942528736
+ResNet50,macro_f1,0.9584802193497846
+MobileNetV3-Small,accuracy,0.9731800766283525
+MobileNetV3-Small,macro_f1,0.9518572587185726

@@ -1,0 +1,273 @@
+FINALIZATION PASS
+{
+  "architecture": "MobileNetV3-Small",
+  "task": "classification",
+  "device": "NVIDIA Jetson Nano Developer Kit",
+  "precision": "TensorRT FP16-enabled",
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "batch_size": 1,
+  "warmup_count": 10,
+  "measured_images": 261,
+  "metrics": {
+    "task": "classification",
+    "total_images": 261,
+    "correct": 254,
+    "incorrect": 7,
+    "accuracy": 0.9731800766283525,
+    "top5_accuracy": null,
+    "macro_precision": 0.9473147085087383,
+    "macro_recall": 0.9576719576719577,
+    "macro_f1": 0.9518572587185726,
+    "weighted_precision": 0.9743105867655534,
+    "weighted_recall": 0.9731800766283525,
+    "weighted_f1": 0.9734228262997455,
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "class_1_asymptomatic",
+        "support": 155,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class_id": 1,
+        "class_name": "class_2_mild_symptoms",
+        "support": 70,
+        "precision": 0.9701492537313433,
+        "recall": 0.9285714285714286,
+        "f1": 0.948905109489051
+      },
+      {
+        "class_id": 2,
+        "class_name": "class_3_symptomatic_compromised",
+        "support": 36,
+        "precision": 0.8717948717948718,
+        "recall": 0.9444444444444444,
+        "f1": 0.9066666666666667
+      }
+    ],
+    "confusion_matrix": [
+      [
+        155,
+        0,
+        0
+      ],
+      [
+        0,
+        65,
+        5
+      ],
+      [
+        0,
+        2,
+        34
+      ]
+    ],
+    "confusion_matrix_normalized": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9285714285714286,
+        0.07142857142857142
+      ],
+      [
+        0.0,
+        0.05555555555555555,
+        0.9444444444444444
+      ]
+    ],
+    "class_names": [
+      "class_1_asymptomatic",
+      "class_2_mild_symptoms",
+      "class_3_symptomatic_compromised"
+    ],
+    "precision": "TensorRT FP16-enabled",
+    "input_shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "batch_size": 1,
+    "historical_reference": {
+      "accuracy": 0.9731800766283525,
+      "macro_f1": 0.9518572587185726
+    },
+    "historical_match": {
+      "accuracy_difference": 0.0,
+      "macro_f1_difference": 0.0
+    }
+  },
+  "performance": {
+    "measured_images": 261,
+    "warmup_count": 10,
+    "mean_engine_latency_ms": 27.178162899967354,
+    "mean_transfer_inclusive_latency_ms": 29.998318502101405,
+    "mean_end_to_end_latency_ms": 114.5635332605364,
+    "engine_fps": 36.79424557431,
+    "transfer_inclusive_fps": 33.33520176905746,
+    "latency_based_pipeline_fps": 8.728781066186523,
+    "official_measured_wall_time_seconds": 30.00873426200087,
+    "wall_clock_pipeline_fps": 8.697467801249324,
+    "engine_percentiles_ms": {
+      "p50": 27.169530868530273,
+      "p90": 27.256093978881836,
+      "p95": 27.281978607177734,
+      "p99": 27.411906051635743
+    },
+    "end_to_end_percentiles_ms": {
+      "p50": 105.547137,
+      "p90": 161.099913,
+      "p95": 197.767128,
+      "p99": 255.01284339999975
+    },
+    "fps_definitions": {
+      "engine_fps": "1000 / mean TensorRT execution-only CUDA-event latency",
+      "transfer_inclusive_fps": "1000 / mean(H2D + TensorRT + D2H)",
+      "latency_based_pipeline_fps": "1000 / mean complete file-open-to-classification latency",
+      "wall_clock_pipeline_fps": "N / official measured process wall time"
+    }
+  },
+  "power_energy": {
+    "power_boundary": "Jetson module-level Power TOT (POM_5V_IN), not GPU-only power",
+    "monitor": "jtop/jetson-stats 4.3.2",
+    "interval_seconds": 0.5,
+    "active_sample_count": 60,
+    "idle_sample_count": 60,
+    "mean_power_tot_w": 5.034416666666667,
+    "median_power_tot_w": 5.108,
+    "min_power_tot_w": 3.782,
+    "max_power_tot_w": 5.967,
+    "p95_power_tot_w": 5.81105,
+    "gross_total_energy_j": 151.53882566118244,
+    "gross_energy_per_image_j": 0.5806085274374806,
+    "idle_mean_power_w": 2.6748166666666666,
+    "idle_corrected_total_energy_j": 71.27095619231464,
+    "idle_corrected_energy_per_image_j": 0.2730687976717036,
+    "images_per_gross_joule": 1.7223308868946625,
+    "images_per_idle_corrected_joule": 3.6620807962184236,
+    "integration": "trapezoidal integration over timestamped samples with boundary extension",
+    "warmup_energy_excluded": true
+  },
+  "resources": {
+    "avg_cpu_util_percent": 33.05416666666667,
+    "max_cpu_util_percent": 60.25,
+    "avg_gpu_util_percent": 12.69,
+    "max_gpu_util_percent": 99.7,
+    "avg_ram_used_mb": 2467.4411458333334,
+    "max_ram_used_mb": 2497.8828125,
+    "avg_process_rss_mb": 1388.2229166666666,
+    "max_process_rss_mb": 1419.51171875
+  },
+  "temperature": {
+    "avg_max_sensor_temperature_c": 42.291666666666664,
+    "max_sensor_temperature_c": 44.0,
+    "throttling_event_count": 0,
+    "throttling_telemetry_note": "No explicit throttling flag was exposed by the preserved jtop monitor schema; no throttling event was observed or inferred."
+  },
+  "bottleneck": {
+    "main_bottleneck": {
+      "stage": "normalization/layout",
+      "mean_latency_ms": 38.883655908045974,
+      "median_latency_ms": 36.578499,
+      "p95_ms": 42.757912999999995,
+      "p99_ms": 69.78022439999968,
+      "accumulated_latency_ms": 10148.634191999989,
+      "share_of_end_to_end_percent": 33.94069194742634,
+      "bottleneck_rank": 1
+    },
+    "latency_outside_tensorrt_percent": 76.27677662650319,
+    "decoding_percent": 21.219806954116738,
+    "preprocessing_percent": 50.98588929562997,
+    "tensorrt_inference_percent": 23.723223373496808,
+    "transfers_percent": 2.461652082360755,
+    "postprocessing_percent": 0.3927730718543253,
+    "optimization_priority": "preprocessing/outside-engine path"
+  },
+  "model_artifact": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/model/mobilenet_v3_small_inference_only.pt",
+    "size_bytes": 6224635,
+    "modified_time": 1781371321.9148188,
+    "sha256": "07f4ccff01ea9949c1ba6ec4cfaaf998025115ab6edb1e176aeb3cea1ff7484e"
+  },
+  "original_onnx": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_original_export.onnx",
+    "size_bytes": 6093345,
+    "modified_time": 1781371324.9188697,
+    "sha256": "c88ff27f9e94950204921d529cb7c49c16a35c60907c983a7b281e8f77782ed8"
+  },
+  "onnx": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/onnx/mobilenet_v3_small_source.onnx",
+    "size_bytes": 6123503,
+    "modified_time": 1781371748.27417,
+    "sha256": "28ef2fe9519b184d0e3c41690726c8911157a103c6ec66ccf8b86387de1d47e7"
+  },
+  "engine": {
+    "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp16_640x640_batch1_warmup10_20260717_142206/engine/mobilenet_v3_small_tensorrt_fp16_1x3x640x640.engine",
+    "size_bytes": 6320802,
+    "modified_time": 1784291621.2915075,
+    "sha256": "32ffe8b3d2b037727ba0a2ec4046a8346bcc0352553974f4b9316cc0ea6fb0c4"
+  },
+  "fp32_comparison": {
+    "status": "PASS",
+    "rows": [
+      {
+        "precision": "FP32",
+        "accuracy": 0.9731800766283525,
+        "macro_f1": 0.9518572587185726,
+        "engine_latency_ms": 33.14579384171643,
+        "engine_fps": 30.169740534059137,
+        "end_to_end_latency_ms": 117.6272600421456,
+        "pipeline_fps": 8.501430702727431,
+        "wall_clock_fps": 8.471688320830646,
+        "average_power_w": 5.215,
+        "gross_energy_per_image_j": 0.617317668333821,
+        "idle_corrected_energy_per_image_j": 0.29655316735927784,
+        "avg_cpu_percent": 32.42338709677419,
+        "avg_gpu_percent": 28.01451612903226,
+        "max_ram_mb": 2461.328125,
+        "max_temperature_c": 48.0,
+        "engine_size_bytes": 9780626
+      },
+      {
+        "precision": "FP16-enabled",
+        "accuracy": 0.9731800766283525,
+        "macro_f1": 0.9518572587185726,
+        "engine_latency_ms": 27.178162899967354,
+        "engine_fps": 36.79424557431,
+        "end_to_end_latency_ms": 114.5635332605364,
+        "pipeline_fps": 8.728781066186523,
+        "wall_clock_fps": 8.697467801249324,
+        "average_power_w": 5.034416666666667,
+        "gross_energy_per_image_j": 0.5806085274374806,
+        "idle_corrected_energy_per_image_j": 0.2730687976717036,
+        "avg_cpu_percent": 33.05416666666667,
+        "avg_gpu_percent": 12.69,
+        "max_ram_mb": 2497.8828125,
+        "max_temperature_c": 44.0,
+        "engine_size_bytes": 6320802
+      }
+    ],
+    "prediction_agreement": 1,
+    "accuracy_difference_fp16_minus_fp32": 0.0,
+    "macro_f1_difference_fp16_minus_fp32": 0.0,
+    "fp16_engine_speedup": 1.2195744783675664,
+    "fp16_pipeline_speedup": 1.026742600323279,
+    "engine_fps_change_percent": 21.95744783675664,
+    "pipeline_fps_change_percent": 2.674260032327891,
+    "gross_energy_change_percent": -5.946556008257565,
+    "idle_corrected_energy_change_percent": -7.919109378158362,
+    "engine_size_change_percent": -35.374259275428784,
+    "reference_package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615"
+  }
+}

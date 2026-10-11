@@ -1,0 +1,8 @@
+Calibration status: PASS
+Algorithm: IInt8EntropyCalibrator2
+Images/batches: 90/90
+Duration seconds: 455.13783740997314
+Cache: /home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/calibration/mobilenet_v3_small_int8_calibration.cache
+Cache SHA-256: 8eb23a265e3d43b13dadd85dffc86895b5d14530d498596a9fb99549e0af9aef
+Test images used: NO
+Historical cache used: NO

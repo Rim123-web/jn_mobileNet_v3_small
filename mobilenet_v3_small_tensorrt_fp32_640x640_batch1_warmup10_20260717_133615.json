@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-07-17T12:05:21.870423+00:00",
+  "package_path": "C:\\Users\\Hiba\\Desktop\\results\\Classification_results\\jetson_nano_benchmark\\mobileNet_v3_small\\mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615",
+  "archive_path": "C:\\Users\\Hiba\\Desktop\\results\\Classification_results\\jetson_nano_benchmark\\mobileNet_v3_small\\mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615.publication_ready.tar.gz",
+  "sidecar_path": "C:\\Users\\Hiba\\Desktop\\results\\Classification_results\\jetson_nano_benchmark\\mobileNet_v3_small\\mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615.publication_ready.archive_sha256.txt",
+  "archive_size_bytes": 26117673,
+  "remote_archive_sha256": "92c020de36dbd032636a72f5a28809910a01a25d735724d68bda301f40fd86eb",
+  "local_archive_sha256": "92c020de36dbd032636a72f5a28809910a01a25d735724d68bda301f40fd86eb",
+  "manifest_rows": 274,
+  "manifest_failures": [],
+  "timing_rows": 261,
+  "prediction_rows": 261,
+  "official_process_event_rows": 535,
+  "executed_code_provenance_rows": 19,
+  "figure_counts": {
+    "png": 23,
+    "svg": 23,
+    "pdf": 23
+  },
+  "headline_results": {
+    "accuracy": 0.9731800766283525,
+    "macro_f1": 0.9518572587185726,
+    "engine_fps": 30.169740534059137,
+    "wall_clock_pipeline_fps": 8.471688320830646,
+    "gross_energy_per_image_j": 0.617317668333821
+  },
+  "checks": {
+    "remote_local_archive_sha256_match": true,
+    "all_packaged_file_hashes_match": true,
+    "final_validation_pass": true,
+    "all_final_validation_checks_pass": true,
+    "timing_rows_equal_261": true,
+    "prediction_rows_equal_261": true,
+    "official_process_event_rows_equal_535": true,
+    "png_figure_count_equal_23": true,
+    "svg_figure_count_equal_23": true,
+    "pdf_figure_count_equal_23": true
+  }
+}

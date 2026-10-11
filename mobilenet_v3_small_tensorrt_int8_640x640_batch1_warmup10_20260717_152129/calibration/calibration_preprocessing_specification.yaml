@@ -1,0 +1,13 @@
+decoder: PIL
+color_order: RGB
+resize: [640, 640]
+interpolation: PIL.Image.BILINEAR
+crop: none
+padding: none
+pixel_scaling: divide_by_255
+mean: [0.485, 0.456, 0.406]
+std: [0.229, 0.224, 0.225]
+layout: HWC_to_CHW
+batch_dimension: true
+dtype: float32
+input_shape: [1, 3, 640, 640]

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "benchmark_rerun": false,
+  "raw_benchmark_modified": false,
+  "added_from_saved_raw_evidence": [
+    "raw/official_process_events.jsonl",
+    "stability/latency_stability_analysis.json",
+    "stability/latency_stability_quartiles.csv",
+    "stability/latency_stability_analysis.md",
+    "validation/executed_code_provenance.csv"
+  ],
+  "official_event_count": 535,
+  "notes": "No inference, engine build, or telemetry capture was rerun."
+}

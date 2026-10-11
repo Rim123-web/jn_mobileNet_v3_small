@@ -1,0 +1,19 @@
+{
+  "main_bottleneck": {
+    "stage": "normalization/layout",
+    "mean_latency_ms": 37.247599735632186,
+    "median_latency_ms": 36.564777,
+    "p95_ms": 38.447779,
+    "p99_ms": 55.375357799999364,
+    "accumulated_latency_ms": 9721.623530999997,
+    "share_of_end_to_end_percent": 31.665788799540557,
+    "bottleneck_rank": 1
+  },
+  "latency_outside_tensorrt_percent": 71.82133305677581,
+  "decoding_percent": 20.479945738785336,
+  "preprocessing_percent": 47.755139199865965,
+  "tensorrt_inference_percent": 28.178666943224187,
+  "transfers_percent": 2.288031174945777,
+  "postprocessing_percent": 0.3959484869025804,
+  "optimization_priority": "preprocessing/outside-engine path"
+}

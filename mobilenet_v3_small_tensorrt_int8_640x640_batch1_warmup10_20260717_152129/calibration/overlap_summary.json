@@ -1,0 +1,6 @@
+{
+  "exact_sha256_overlap": 0,
+  "decoded_pixel_overlap": 0,
+  "near_duplicate_candidates_dhash_le_2": 0,
+  "strict_blocker_pass": true
+}

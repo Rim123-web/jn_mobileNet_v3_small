@@ -1,0 +1,18 @@
+{
+  "path": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_int8_640x640_batch1_warmup10_20260717_152129/onnx/mobilenet_v3_small_source.onnx",
+  "sha256": "28ef2fe9519b184d0e3c41690726c8911157a103c6ec66ccf8b86387de1d47e7",
+  "size_bytes": 6123503,
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "output_shape": [
+    1,
+    3
+  ],
+  "fixed_shape": true,
+  "preprocessing_external": true,
+  "hash_parity_fp32_fp16": "PASS"
+}

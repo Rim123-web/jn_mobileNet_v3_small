@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "duration_seconds": 30.0,
+  "sample_count": 60,
+  "power_field": "power_tot_w",
+  "mean_power_w": 2.6748166666666666,
+  "median_power_w": 2.615,
+  "min_power_w": 2.572,
+  "max_power_w": 3.617,
+  "note": "Power statistics are finalized from the raw idle CSV by finalize_results.py."
+}

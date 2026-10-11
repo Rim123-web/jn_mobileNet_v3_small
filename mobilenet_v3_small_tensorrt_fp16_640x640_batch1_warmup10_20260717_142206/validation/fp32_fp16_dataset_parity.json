@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "reference_package": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/mobilenet_v3_small_tensorrt_fp32_640x640_batch1_warmup10_20260717_133615",
+  "fp32_count": 261,
+  "fp16_count": 261,
+  "ordered_relative_path_hash_class_match": true
+}

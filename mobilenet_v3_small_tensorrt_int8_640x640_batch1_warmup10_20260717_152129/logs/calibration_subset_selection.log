@@ -1,0 +1,13 @@
+{
+  "source": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val",
+  "selection": "deterministic evenly-spaced stratified subset over each class-sorted path list",
+  "random_sampling": false,
+  "seed": 42,
+  "seed_usage": "recorded but not used because selection is deterministic without randomness",
+  "target_per_class": 30,
+  "selected_count": 90,
+  "batch_size": 1,
+  "augmentation": false,
+  "reason_for_subset": "90 balanced images is within the requested preferred 90-150 range, represents all classes, and is practical for Jetson Nano calibration."
+}
+CALIBRATION SUBSET SELECTION PASS

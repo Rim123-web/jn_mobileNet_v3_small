@@ -1,0 +1,15 @@
+FP16 CORRECTNESS VALIDATION PASS
+{
+  "status": "PASS",
+  "sample_count": 20,
+  "sampling": "20 evenly spaced deterministic indices over the sorted 261-image list",
+  "all_outputs_finite": true,
+  "fp32_fp16_top1_agreement": 1.0,
+  "onnx_fp16_top1_agreement": 1.0,
+  "minimum_fp32_fp16_cosine_similarity": 0.9999759846792473,
+  "maximum_fp32_fp16_absolute_error": 0.09817123413085938,
+  "mean_fp32_fp16_absolute_error": 0.03127390167210251,
+  "unique_fp16_predictions": 3,
+  "duration_seconds": 20.357832670211792,
+  "validation_process_model": "one fresh subprocess per TensorRT engine; aggregation occurs after both contexts exit"
+}

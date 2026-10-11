@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "source_root": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452/val",
+  "source_split": "validation",
+  "source_archive": {
+    "path": "/home/jetson/Downloads/val_mobilenet.zip",
+    "size_bytes": 132639965,
+    "modified_time": 1784293077.2821684,
+    "sha256": "fce132c3a7172452a18b068c9630591517bbe1de93f140bee580669df4323a15"
+  },
+  "extraction_root": "/home/jetson/Downloads/classification_benchmark/mobileNet_v3_small/calibration_sources/val_mobilenet_fce132c3a7172452",
+  "source_image_count": 260,
+  "selected_calibration_count": 90,
+  "class_distribution": {
+    "class_1_asymptomatic": 30,
+    "class_2_mild_symptoms": 30,
+    "class_3_symptomatic_compromised": 30
+  },
+  "selection_method": "deterministic evenly-spaced stratified subset over each class-sorted path list",
+  "seed": 42,
+  "test_images_used": false,
+  "exact_test_overlap": 0,
+  "historical_test_fallback_cache_used": false,
+  "subset_reason": "90 balanced images is within the requested preferred 90-150 range, represents all classes, and is practical for Jetson Nano calibration."
+}
